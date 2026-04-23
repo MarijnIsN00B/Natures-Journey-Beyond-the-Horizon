@@ -1,0 +1,827 @@
+{
+  "favorites": [
+    {
+      "stack": "item:create:mechanical_bearing"
+    },
+    {
+      "stack": "item:create:linear_chassis"
+    },
+    {
+      "stack": "item:create:portable_storage_interface",
+      "recipe": "create:crafting/kinetics/portable_storage_interface"
+    },
+    {
+      "stack": "item:immersive_aircraft:engine"
+    },
+    {
+      "stack": "item:immersive_aircraft:steel_boiler"
+    },
+    {
+      "stack": "item:immersive_aircraft:gyroscope"
+    },
+    {
+      "stack": "item:immersive_aircraft:bomb_bay"
+    },
+    {
+      "stack": "item:farmersdelight:organic_compost",
+      "recipe": "farmersdelight:organic_compost_from_rotten_flesh"
+    },
+    {
+      "stack": "item:create:mechanical_harvester",
+      "recipe": "create:crafting/kinetics/mechanical_harvester"
+    }
+  ],
+  "lookup_history": [
+    {
+      "type": "item",
+      "id": "untitledduckmod:goose_foot",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "untitledduckmod:duck_feather",
+      "amount": 64
+    },
+    "item:farmersrespite:coffee_cake",
+    "item:natures_spirit:whole_pizza{BlockEntityTag:{}}",
+    "item:natures_spirit:desert_turnip_block",
+    "item:natures_spirit:desert_turnip",
+    "item:natures_spirit:coconut",
+    "item:natures_spirit:coconut_half",
+    "item:sophisticatedstorage:stack_upgrade_tier_5",
+    "item:sophisticatedstorage:stack_upgrade_omega_tier",
+    "item:twigs:birch_table",
+    "item:mcwfurnitures:spruce_table",
+    "item:mcwfurnitures:oak_table",
+    "item:mcwfurnitures:stripped_oak_table",
+    "item:twigs:oak_table",
+    "item:oceansdelight:honey_fried_kelp",
+    "item:art_of_forging:forged_steel_ingot",
+    "item:farmersrespite:rose_hip_pie",
+    "item:farmersrespite:rose_hip_pie_slice",
+    {
+      "type": "item",
+      "id": "biomesoplenty:toadstool",
+      "amount": 2
+    },
+    "item:minecraft:iron_pickaxe{Damage:0}",
+    "item:create:hand_crank",
+    {
+      "type": "item",
+      "id": "farmersdelight:cooked_cod_slice",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "minecraft:cooked_cod",
+      "amount": 12
+    },
+    {
+      "type": "item",
+      "id": "twigs:bamboo_leaves",
+      "amount": 3
+    },
+    "item:farmersdelight:tree_bark",
+    "item:farmersdelight:hamburger",
+    "item:farmersrespite:tea_curry",
+    "item:farmersrespite:black_tea",
+    "item:farmersrespite:yellow_tea",
+    "item:farmersrespite:green_tea",
+    "item:nethersdelight:grilled_strider",
+    "item:nethersdelight:strider_slice",
+    "item:nethersdelight:strider_moss_stew",
+    "item:nethersdelight:warped_moldy_meat",
+    "item:cosmos:titanium_suit_helmet{Damage:0}",
+    "item:cosmos:titanium_plate",
+    "item:cosmos:nickle_plate",
+    "item:cosmos:steel_plate",
+    "item:cosmos:steel_flash_helmet_on_helmet{Damage:0}",
+    "item:cosmos:cable_n",
+    "item:cosmos:smallsolarpanel",
+    "item:cosmos:largesolarpanel",
+    "item:cosmos:siliconcrystal",
+    "item:minecraft:crossbow{Damage:0}",
+    "item:minecraft:bow{Damage:0}",
+    "item:minecraft:flint_and_steel{Damage:0}",
+    "item:minecraft:netherite_pickaxe{Damage:0}",
+    "item:minecraft:golden_axe{Damage:0}",
+    "item:minecraft:diamond_axe{Damage:0}",
+    "item:minecraft:diamond_pickaxe{Damage:0}",
+    "item:minecraft:golden_shovel{Damage:0}",
+    "item:minecraft:iron_shovel{Damage:0}",
+    "item:minecraft:iron_hoe{Damage:0}",
+    "item:minecraft:iron_axe{Damage:0}",
+    "item:cosmos:raw_titanium",
+    {
+      "type": "item",
+      "id": "cosmos:titanium_ingot",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "cosmos:nickle_ingot",
+      "amount": 64
+    },
+    "item:supplementaries:key",
+    "item:oceansdelight:seagrass_salad",
+    "item:minecraft:rabbit_stew",
+    "item:minecraft:beetroot_soup",
+    "item:minecraft:mushroom_stew",
+    "item:immersive_aircraft:gyroscope_hud",
+    "item:natures_spirit:red_moss_block",
+    "item:farmersrespite:kettle",
+    "item:immersive_aircraft:boiler",
+    "item:immersive_aircraft:engine",
+    "item:twigs:silt",
+    "item:minecraft:gravel",
+    "item:minecraft:light_gray_dye",
+    "item:tetra:modular_double{Damage:0,\"double/basic_hammer_left_material\":\"basic_hammer/oak\",\"double/basic_hammer_right_material\":\"basic_hammer/oak\",\"double/basic_handle_material\":\"basic_handle/stick\",\"double/handle\":\"double/basic_handle\",\"double/head_left\":\"double/basic_hammer_left\",\"double/head_right\":\"double/basic_hammer_right\",id:\"499dc006-7121-4c95-8ec5-e8ea0a70a500\",weapon_attributes:\u0027{\"parent\":\"bettercombat:hammer\",\"attributes\":{\"attack_range\":3.0,\"pose\":\"bettercombat:pose_two_handed_heavy\",\"two_handed\":true,\"category\":\"hammer\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:hammer_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}\u0027}",
+    "item:minecraft:chest",
+    "#item:forge:chests/wooden",
+    "item:minecraft:oak_planks",
+    "item:minecraft:oak_fence",
+    "item:minecraft:stick",
+    "item:immersive_aircraft:warship",
+    "item:comforts:hammock_white",
+    "item:supplementaries:rope",
+    "item:farmersdelight:rope",
+    "item:immersive_aircraft:biplane",
+    "item:immersive_aircraft:cargo_airship",
+    "item:immersive_aircraft:quadrocopter",
+    "item:immersive_aircraft:gyrodyne",
+    "item:minecraft:prismarine_shard",
+    "item:create:copper_scaffolding",
+    "item:man_of_many_planes:economy_plane",
+    "item:create:andesite_scaffolding",
+    "item:man_of_many_planes:scarlet_biplane",
+    "item:create:red_seat",
+    "item:create:propeller",
+    "item:immersive_aircraft:propeller",
+    "item:create:crushing_wheel",
+    "item:create:powdered_obsidian",
+    "item:create:sturdy_sheet",
+    "item:create:copper_sheet",
+    "item:immersive_aircraft:hull",
+    "item:minecraft:ender_pearl",
+    {
+      "type": "item",
+      "id": "ends_delight:ender_pearl_grain",
+      "amount": 4
+    },
+    "item:minecraft:crying_obsidian",
+    "item:create:blaze_cake",
+    "item:minecraft:diamond",
+    "item:create:basin",
+    "item:create:blaze_burner",
+    "item:create:copper_casing",
+    "item:minecraft:copper_ingot",
+    "item:create:brass_casing",
+    "item:minecraft:mutton",
+    "item:minecraft:red_mushroom",
+    "item:minecraft:sweet_berries",
+    "item:solcarrot:food_book",
+    "item:nethersdelight:stuffed_hoglin",
+    "item:nethersdelight:raw_stuffed_hoglin",
+    "item:cosmos:concentratedsulpherore",
+    "item:alexscaves:radrock_uranium_ore",
+    "item:alexscaves:uranium",
+    "item:minecraft:iron_ore",
+    "item:minecraft:jungle_door",
+    "item:alexscaves:galena_iron_ore",
+    "item:alexscaves:coprolith_coal_ore",
+    "item:alexscaves:guanostone_redstone_ore",
+    "item:minecraft:gold_ore",
+    "item:natures_spirit:chert_gold_ore",
+    "item:minecraft:coal_ore",
+    "item:natures_spirit:chert_coal_ore",
+    "item:natures_spirit:chert_iron_ore",
+    "item:minecraft:copper_ore",
+    "item:natures_spirit:chert_copper_ore",
+    "item:minecraft:redstone_ore",
+    "item:natures_spirit:chert_redstone_ore",
+    "item:minecraft:lapis_ore",
+    "item:natures_spirit:chert_lapis_ore",
+    "item:minecraft:diamond_ore",
+    "item:natures_spirit:chert_diamond_ore",
+    "item:minecraft:emerald_ore",
+    "item:natures_spirit:chert_emerald_ore",
+    "item:minecraft:raw_gold",
+    "item:natures_spirit:chert",
+    "item:alexscaves:forsaken_idol",
+    "item:alexscaves:dinosaur_nugget",
+    "item:minecraft:oak_button",
+    "item:alexscaves:amber_monolith",
+    "item:alexscaves:amber",
+    "item:alexscaves:cycad",
+    "item:minecraft:leather_helmet{Damage:0}",
+    "item:minecraft:scute",
+    "item:minecraft:turtle_helmet{Damage:0}",
+    "item:supplementaries:sconce",
+    "item:supplementaries:sconce_lever",
+    "item:supplementaries:fire_pit",
+    "item:alexscaves:pure_darkness",
+    "item:farmersdelight:canvas",
+    "item:farmersdelight:canvas_rug",
+    "item:natures_spirit:paper_lantern",
+    "item:natures_spirit:brown_paper_lantern",
+    {
+      "type": "item",
+      "id": "ends_delight:end_stove",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "nethersdelight:blackstone_stove",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "farmersdelight:stove",
+      "amount": 64
+    },
+    "item:farmersdelight:straw",
+    "item:minecraft:glass_bottle",
+    "item:minecraft:cookie",
+    "item:farmersdelight:ham",
+    "item:farmersdelight:smoked_ham",
+    "item:minecraft:spruce_pressure_plate",
+    "item:nethersdelight:soul_compost",
+    "item:tetranichematerials:steel_powder",
+    "item:tetranichematerials:steel_ingot",
+    "item:tetranichematerials:burning_steel_ingot",
+    {
+      "type": "item",
+      "id": "regions_unexplored:bamboo_log",
+      "amount": 25
+    },
+    "item:cosmos:titanium_space_nodule",
+    "item:cosmos:steel_space_nodule",
+    "item:cosmos:steel_fueltank",
+    {
+      "type": "item",
+      "id": "cosmos:steel_ingot",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "cosmos:raw_nickle",
+      "amount": 4
+    },
+    "item:supplementaries:wrench{Damage:0}",
+    "item:natures_spirit:travertine",
+    "item:minecraft:honeycomb",
+    "item:supplementaries:ash_brick",
+    "item:twigs:gray_packed_silt",
+    "item:oceansdelight:baked_tentacle_on_a_stick",
+    "item:oceansdelight:tentacle_on_a_stick",
+    "item:oceansdelight:squid_rings",
+    "item:oceansdelight:fugu_slice",
+    "item:oceansdelight:fugu_roll",
+    "item:oceansdelight:cooked_elder_guardian_slice",
+    "item:oceansdelight:stuffed_cod",
+    "item:oceansdelight:cooked_stuffed_cod",
+    "item:oceansdelight:braised_sea_pickle",
+    "item:immersive_aircraft:gyroscope",
+    "item:dtnatures_spirit:red_maple_seed",
+    "item:ends_delight:shulker_soup",
+    "item:ends_delight:raw_ender_sausage",
+    "item:ends_delight:ender_sausage",
+    "item:nethersdelight:nether_skewer",
+    "item:natures_spirit:olives",
+    "item:minecraft:magma_cream",
+    "item:nethersdelight:magma_gelatin",
+    "item:supplementaries:candy",
+    "#item:natures_spirit:coconut_items",
+    "item:farmersdelight:bacon",
+    "item:farmersdelight:cooked_bacon",
+    {
+      "type": "item",
+      "id": "farmersdelight:bacon_and_eggs",
+      "amount": 16
+    },
+    {
+      "type": "item",
+      "id": "alexscaves:hot_chocolate_bottle",
+      "amount": 16
+    },
+    "item:alexscaves:sundae",
+    {
+      "type": "item",
+      "id": "alexscaves:peppermint_powder",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "alexscaves:gumball_pile",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "alexscaves:caramel",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "alexscaves:caramel_apple",
+      "amount": 64
+    },
+    "item:alexscaves:gummy_ring_green",
+    "item:alexscaves:gelatin_pink",
+    "item:alexscaves:jelly_bean{Potion:\"alexscaves:haste\"}",
+    "item:alexscaves:gelatin_red",
+    "item:alexscaves:sweetish_fish_red",
+    "item:alexscaves:primordial_soup",
+    "item:alexscaves:seething_stew",
+    "item:alexscaves:serene_salad",
+    "item:alexscaves:cooked_dinosaur_chop",
+    "item:oceansdelight:guardian_soup",
+    "item:cosmos:steel_sword{Damage:0}",
+    "item:immersive_aircraft:industrial_gears",
+    "item:alexscaves:raygun{ChargeUsed:160,PrevRayX:-14.597125170571442d,PrevRayY:23.0d,PrevRayZ:-54.13414939612085d,PrevUseTime:0,RayX:-14.597125170571442d,RayY:23.0d,RayZ:-54.13414939612085d,UseTime:0}",
+    "item:alexscaves:uranium_rod",
+    "item:alexscaves:nuclear_bomb",
+    "item:alexscaves:fissile_core",
+    "item:tetranichematerials:pulverized_coal",
+    "item:tetranichematerials:grave_steel_ingot",
+    "item:tetra:forged_workbench",
+    "item:tetra:core_extractor",
+    "item:tetra:forged_pillar",
+    "item:tetra:metal_scrap",
+    "item:ribbits:swamp_lantern",
+    {
+      "type": "item",
+      "id": "minecraft:egg",
+      "amount": 16
+    },
+    "item:create:mechanical_harvester",
+    "item:minecraft:large_fern",
+    {
+      "type": "item",
+      "id": "regions_unexplored:cattail",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "minecraft:string",
+      "amount": 2
+    },
+    "item:create:precision_mechanism",
+    "item:create:rotation_speed_controller",
+    "item:tetra:scroll_rolled{BlockEntityTag:{data:[{glyphs:[I;4,1,0,5],intricate:0b,key:\"sword/throwing_knife\",material:1,ribbon:\"b8ced9\",schematics:[\"tetra:sword/throwing_knife\"]}]}}",
+    "item:natures_spirit:wisteria_mosaic_slab",
+    "item:minecraft:crafting_table",
+    "item:tetra:holo{\"holo/core\":\"holo/core\",\"holo/core_material\":\"core/dim\",\"holo/frame\":\"holo/frame\",\"holo/frame_material\":\"frame/ancient\",\"holo/repo\":\"holo/repo\",\"holo/repo_material\":\"repo/default\",\"holo/scanner\":\"holo/scanner\",\"holo/scanner_material\":\"scanner/default\",id:\"9503de92-046c-4d61-8afe-8c0d71c6afae\"}",
+    "item:minecraft:shield{Damage:0}",
+    "item:minecraft:zombie_head",
+    "item:farmersdelight:organic_compost",
+    {
+      "type": "item",
+      "id": "regions_unexplored:daisy",
+      "amount": 13
+    },
+    "item:tetranichematerials:burning_steel_block",
+    "item:tetranichematerials:burning_steel_armor_feet{Damage:0}",
+    "item:natures_spirit:gardenia",
+    {
+      "type": "item",
+      "id": "natures_spirit:white_wisteria_vines",
+      "amount": 4
+    },
+    "item:minecraft:composter",
+    "item:minecraft:oak_slab",
+    "item:create:super_glue{Damage:0}",
+    {
+      "type": "item",
+      "id": "minecraft:lime_dye",
+      "amount": 6
+    },
+    {
+      "type": "item",
+      "id": "minecraft:iron_nugget",
+      "amount": 9
+    },
+    "item:create:water_wheel",
+    {
+      "type": "item",
+      "id": "create:large_water_wheel",
+      "amount": 2
+    },
+    "item:minecraft:acacia_planks",
+    "#item:minecraft:planks",
+    "item:create:shaft",
+    "item:regions_unexplored:pointed_redstone",
+    "item:immersive_aircraft:bomb_bay",
+    "item:immersive_aircraft:nether_engine",
+    "item:minecraft:green_dye",
+    "item:minecraft:slime_ball",
+    "item:create:portable_storage_interface",
+    {
+      "type": "item",
+      "id": "minecraft:emerald",
+      "amount": 4
+    },
+    "item:endrem:cryptic_eye{Damage:0}",
+    {
+      "type": "item",
+      "id": "create:chute",
+      "amount": 4
+    },
+    "#item:minecraft:wooden_slabs",
+    "item:tetra:rack",
+    "item:minecraft:sponge",
+    {
+      "type": "item",
+      "id": "minecraft:wet_sponge",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "minecraft:lever",
+      "amount": 2
+    },
+    "item:supplementaries:pancake",
+    "item:minecraft:dragon_egg",
+    {
+      "type": "item",
+      "id": "ends_delight:raw_dragon_meat",
+      "amount": 7
+    },
+    "item:natures_spirit:sandy_soil",
+    "item:minecraft:netherite_ingot",
+    "item:twigs:jungle_table",
+    "item:regions_unexplored:pine_shrub",
+    "item:twigs:twig",
+    "item:alexscaves:gingerbread_chestplate{Damage:0}",
+    "item:alexscaves:diving_chestplate{Damage:0}",
+    "item:cosmos:titanium_block",
+    "item:cosmos:nickelarmour_chestplate{Damage:0}",
+    "item:cosmos:titanium_suit_chestplate{Damage:0}",
+    "item:cosmos:titanium_suit_leggings{Damage:0}",
+    {
+      "type": "item",
+      "id": "dynamictrees:oak_seed",
+      "amount": 35
+    },
+    "item:minecraft:blast_furnace",
+    "item:minecraft:piston",
+    "item:minecraft:iron_ingot",
+    {
+      "type": "item",
+      "id": "minecraft:cooked_beef",
+      "amount": 16
+    },
+    "item:minecraft:iron_block",
+    {
+      "type": "item",
+      "id": "minecraft:experience_bottle",
+      "amount": 2
+    },
+    "item:minecraft:water_bucket",
+    "item:tetranichematerials:steel_ingot",
+    "item:minecraft:gunpowder",
+    "item:minecraft:dropper",
+    "item:minecraft:chicken",
+    "item:minecraft:bone_meal",
+    {
+      "type": "item",
+      "id": "minecraft:mossy_cobblestone",
+      "amount": 3
+    },
+    "item:minecraft:goat_horn{instrument:\"minecraft:sing_goat_horn\"}",
+    {
+      "type": "item",
+      "id": "minecraft:dark_oak_fence",
+      "amount": 12
+    },
+    {
+      "type": "item",
+      "id": "minecraft:arrow",
+      "amount": 31
+    },
+    "item:minecraft:spruce_chest_boat",
+    "item:minecraft:mossy_cobblestone_slab",
+    {
+      "type": "item",
+      "id": "minecraft:carrot",
+      "amount": 5
+    },
+    "item:minecraft:lead",
+    "item:minecraft:stripped_oak_log",
+    "item:regions_unexplored:aster",
+    {
+      "type": "item",
+      "id": "regions_unexplored:tsubaki",
+      "amount": 2
+    },
+    "item:tetra:stonecutter",
+    "item:tetra:modular_sword{Damage:0,id:\"a37272a8-b5dc-4a25-a720-7827e5b08038\",\"sword/basic_hilt_material\":\"basic_hilt/stick\",\"sword/blade\":\"sword/short_blade\",\"sword/hilt\":\"sword/basic_hilt\",\"sword/short_blade_material\":\"short_blade/iron\"}",
+    "item:minecraft:campfire",
+    {
+      "type": "item",
+      "id": "minecraft:rotten_flesh",
+      "amount": 3
+    },
+    "item:tetra:modular_toolbelt{id:\"454376c4-124f-43f0-920d-36df14f7740a\",\"toolbelt/belt\":\"toolbelt/belt\",\"toolbelt/belt_material\":\"belt/inlaid\",\"toolbelt/slot1\":\"toolbelt/strap_slot1\",\"toolbelt/strap_slot1_material\":\"strap1/leather\"}",
+    "item:tetra:forged_platform_slab",
+    "item:regions_unexplored:green_bioshroom",
+    {
+      "type": "item",
+      "id": "minecraft:oak_log",
+      "amount": 12
+    },
+    "item:dtru:blue_magnolia_seed",
+    {
+      "type": "item",
+      "id": "minecraft:wheat",
+      "amount": 5
+    },
+    {
+      "type": "item",
+      "id": "minecraft:feather",
+      "amount": 6
+    },
+    "item:minecraft:seagrass",
+    "item:minecraft:furnace",
+    "item:minecraft:note_block",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecraft:respiration\",lvl:1s}]}",
+    {
+      "type": "item",
+      "id": "minecraft:sandstone",
+      "amount": 12
+    },
+    {
+      "type": "item",
+      "id": "minecraft:sand",
+      "amount": 11
+    },
+    "item:minecraft:tnt",
+    "item:minecraft:nautilus_shell",
+    {
+      "type": "item",
+      "id": "minecraft:coarse_dirt",
+      "amount": 7
+    },
+    {
+      "type": "item",
+      "id": "minecraft:bone_block",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "minecraft:bread",
+      "amount": 25
+    },
+    {
+      "type": "item",
+      "id": "minecraft:cobblestone",
+      "amount": 28
+    },
+    "item:minecraft:white_wool",
+    "item:minecraft:diorite",
+    {
+      "type": "item",
+      "id": "dynamictrees:dark_oak_seed",
+      "amount": 41
+    },
+    {
+      "type": "item",
+      "id": "minecraft:dark_oak_planks",
+      "amount": 64
+    },
+    "item:minecraft:music_disc_13",
+    {
+      "type": "item",
+      "id": "minecraft:sentry_armor_trim_smithing_template",
+      "amount": 8
+    },
+    "item:minecraft:porkchop",
+    {
+      "type": "item",
+      "id": "minecraft:bone",
+      "amount": 12
+    },
+    "item:minecraft:barrel",
+    {
+      "type": "item",
+      "id": "minecraft:dirt",
+      "amount": 55
+    },
+    {
+      "type": "item",
+      "id": "minecraft:tuff",
+      "amount": 8
+    },
+    {
+      "type": "item",
+      "id": "minecraft:dark_oak_stairs",
+      "amount": 4
+    },
+    "item:minecraft:splash_potion{Potion:\"minecraft:healing\"}",
+    "item:minecraft:enchanted_book{StoredEnchantments:[{id:\"minecolonies:raider_damage_enchant\",lvl:2s}]}",
+    "item:minecraft:splash_potion{Potion:\"minecraft:strong_healing\"}",
+    {
+      "type": "item",
+      "id": "minecraft:apple",
+      "amount": 34
+    },
+    {
+      "type": "item",
+      "id": "minecraft:dark_oak_log",
+      "amount": 38
+    },
+    {
+      "type": "item",
+      "id": "minecraft:paper",
+      "amount": 9
+    },
+    {
+      "type": "item",
+      "id": "minecraft:birch_planks",
+      "amount": 4
+    },
+    "item:minecraft:andesite",
+    {
+      "type": "item",
+      "id": "minecraft:birch_log",
+      "amount": 64
+    },
+    "item:dynamictrees:birch_seed",
+    "item:minecraft:birch_sapling",
+    {
+      "type": "item",
+      "id": "minecraft:brown_mushroom",
+      "amount": 5
+    },
+    "item:minecraft:ladder",
+    "item:minecraft:saddle",
+    "item:minecraft:light_gray_wool",
+    {
+      "type": "item",
+      "id": "minecraft:raw_copper",
+      "amount": 3
+    },
+    "item:minecraft:deepslate_copper_ore",
+    "item:minecraft:baked_potato",
+    "item:minecraft:skeleton_skull",
+    {
+      "type": "item",
+      "id": "minecraft:calcite",
+      "amount": 9
+    },
+    {
+      "type": "item",
+      "id": "minecraft:torch",
+      "amount": 48
+    },
+    "item:minecraft:cobbled_deepslate",
+    "item:minecraft:stone_pickaxe{Damage:0}",
+    "item:minecraft:white_carpet",
+    "item:minecraft:spyglass",
+    "item:minecraft:leather",
+    "item:minecraft:leather_chestplate{Damage:0}",
+    "item:minecraft:filled_map{Decorations:[{id:\"+\",rot:180.0d,type:26b,x:-1095.0d,z:121.0d}],display:{Name:\u0027{\"translate\":\"filled_map.buried_treasure\"}\u0027},map:0}",
+    {
+      "type": "item",
+      "id": "minecraft:snowball",
+      "amount": 16
+    },
+    {
+      "type": "item",
+      "id": "minecraft:snow_block",
+      "amount": 16
+    },
+    "item:minecraft:crimson_pressure_plate",
+    "item:minecraft:flint",
+    "item:minecraft:dried_kelp",
+    "item:minecraft:charcoal",
+    "item:minecraft:coal",
+    "item:tetranichematerials:lockwood_powder",
+    "item:tetranichematerials:lockwood_ingot",
+    "item:tetranichematerials:lockwood_armor_helmet{Damage:0}",
+    "item:tetranichematerials:bronnum_armor_helmet{Damage:0}",
+    "item:tetranichematerials:dooferfish_armor_helmet{Damage:0}",
+    "item:tetranichematerials:darkbottom_armor_helmet{Damage:0}",
+    "item:minecraft:spruce_fence_gate",
+    "item:minecraft:tipped_arrow{Potion:\"minecraft:long_water_breathing\"}",
+    "item:minecraft:birch_door"
+  ],
+  "craft_history": [
+    "densetrees:planks_from_dense_oak_log",
+    "minecraft:campfire",
+    "minecraft:oak_slab",
+    "minecraft:furnace",
+    "minecraft:chest",
+    "minecraft:oak_boat",
+    "minecraft:stone_shovel",
+    "tetra:hammer/stone",
+    "minecraft:wooden_shovel",
+    "minecraft:wooden_axe",
+    "minecraft:wooden_pickaxe",
+    "minecraft:stone_axe",
+    "twigs:stick_from_twig",
+    "tetra:hammer/acacia",
+    "farmersdelight:iron_knife",
+    "tetra:toolbelt_modular",
+    "farmersdelight:organic_compost_from_rotten_flesh",
+    "create:crafting/kinetics/mechanical_harvester",
+    "create:crafting/materials/andesite_alloy",
+    "minecraft:iron_nugget",
+    "minecraft:bone_meal",
+    "minecraft:shield",
+    "regions_unexplored:maple_planks",
+    "minecraft:iron_ingot_from_nuggets",
+    "minecraft:composter",
+    "create:crafting/kinetics/super_glue",
+    "create:crafting/kinetics/water_wheel",
+    "minecraft:oak_planks",
+    "minecraft:lime_dye",
+    "minecraft:white_dye",
+    "minecraft:dark_oak_planks",
+    "create:crafting/kinetics/shaft",
+    "create:crafting/kinetics/portable_storage_interface",
+    "minecraft:bucket",
+    "minecraft:torch",
+    "tetra:rack",
+    "regions_unexplored:maple_slab",
+    "tetra:hammer/oak",
+    "minecraft:crafting_table",
+    "minecraft:stone_sword",
+    "minecraft:spruce_planks",
+    "minecraft:stick",
+    "minecraft:stone_pickaxe",
+    "minecraft:blast_furnace",
+    "minecraft:piston",
+    "minecraft:birch_slab",
+    "minecraft:bread",
+    "minecraft:iron_block",
+    "minecraft:dark_oak_slab",
+    "tetra:hammer/dark_oak",
+    "minecraft:birch_door",
+    "tetra:hammer/birch",
+    "minecraft:dark_oak_fence",
+    "minecraft:dark_oak_fence_gate",
+    "minecraft:dark_oak_chest_boat",
+    "minecraft:dark_oak_boat",
+    "minecraft:white_bed",
+    "minecraft:bricks",
+    "minecraft:iron_boots",
+    "minecraft:iron_helmet",
+    "minecraft:iron_leggings",
+    "minecraft:iron_chestplate",
+    "minecraft:stone_hoe",
+    "regions_unexplored:pine_boat",
+    "minecraft:birch_planks",
+    "regions_unexplored:maple_boat",
+    "minecraft:hay_block",
+    "minecraft:white_wool_from_string",
+    "minecraft:dark_oak_stairs",
+    "minecraft:note_block",
+    "minecraft:wooden_hoe",
+    "minecraft:tnt",
+    "minecraft:chain",
+    "minecraft:dark_oak_door",
+    "minecraft:dark_oak_pressure_plate",
+    "minecraft:dye_gray_bed",
+    "minecraft:gray_dye",
+    "minecraft:black_dye",
+    "minecraft:dark_oak_sign",
+    "minecraft:barrel",
+    "minecraft:glass_pane",
+    "minecraft:gold_nugget",
+    "minecraft:gold_ingot_from_nuggets",
+    "minecraft:dark_oak_trapdoor",
+    "minecraft:flint_and_steel",
+    "minecraft:paper",
+    "minecraft:andesite",
+    "minecraft:stonecutter",
+    "minecraft:map",
+    "minecraft:compass",
+    "minecraft:coarse_dirt",
+    "minecraft:firework_rocket_simple",
+    "minecraft:firework_rocket",
+    "minecraft:lever",
+    "minecraft:cobblestone_stairs",
+    "minecraft:birch_fence",
+    "minecraft:ladder",
+    "minecraft:wheat",
+    "minecraft:stone_slab",
+    "minecraft:white_carpet",
+    "minecraft:shears",
+    "minecraft:spyglass",
+    "minecraft:birch_stairs",
+    "minecraft:bow",
+    "minecraft:spruce_slab",
+    "regions_unexplored:redwood_planks",
+    "regions_unexplored:redwood_boat",
+    "regions_unexplored:maple_door",
+    "minecraft:snow_block",
+    "minecraft:map_extending"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

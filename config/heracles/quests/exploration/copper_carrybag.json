@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "get_a_backpack"
+  ],
+  "tasks": {
+    "Copper Backpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:copper_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:copper_backpack",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "5levels": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "magnet": {
+      "item": {
+        "id": "sophisticatedbackpacks:magnet_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade your backpack to copper"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          30,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:copper_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Carrybag"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

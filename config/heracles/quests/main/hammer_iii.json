@@ -1,0 +1,98 @@
+{
+  "dependencies": [
+    "hammer2"
+  ],
+  "tasks": {
+    "iron_hammer": {
+      "type": "heracles:item",
+      "item": "tetra:modular_double",
+      "nbt": {
+        "double/basic_hammer_right_material": "basic_hammer/iron",
+        "double/handle": "double/basic_handle",
+        "double/head_right": "double/basic_hammer_right",
+        "double/basic_hammer_left_material": "basic_hammer/iron",
+        "double/head_left": "double/basic_hammer_left",
+        "Damage": 0,
+        "double/basic_handle_material": "basic_handle/spruce",
+        "id": "32a01418-2180-42b5-bf46-9339762ee120"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "scematic": {
+      "item": {
+        "id": "tetra:scroll_rolled",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "data": [
+              {
+                "intricate": 0,
+                "key": "axe_efficiency",
+                "material": 0,
+                "glyphs": [
+                  0,
+                  1,
+                  3,
+                  3
+                ],
+                "effects": [
+                  "tetra:axe_efficiency"
+                ],
+                "ribbon": "66ff66"
+              }
+            ]
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use stone to upgrade your hammer to iron level"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          120,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_double",
+        "count": 1,
+        "nbt": {
+          "id": "32a01418-2180-42b5-bf46-9339762ee120",
+          "Damage": 0,
+          "double/head_left": "double/basic_hammer_left",
+          "double/basic_handle_material": "basic_handle/spruce",
+          "double/basic_hammer_right_material": "basic_hammer/iron",
+          "double/handle": "double/basic_handle",
+          "double/basic_hammer_left_material": "basic_hammer/iron",
+          "double/head_right": "double/basic_hammer_right"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hammer III"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

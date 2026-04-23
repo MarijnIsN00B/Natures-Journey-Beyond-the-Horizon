@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "bench_mk_ii"
+  ],
+  "tasks": {
+    "tetra:upgrades/bow_upgrade": {
+      "title": "Upgrade a bow in a workbench",
+      "advancements": [
+        "tetra:upgrades/bow_upgrade"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "arrows": {
+      "item": {
+        "id": "minecraft:arrow",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade a bow in a workbench"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          35,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_bow",
+        "count": 1,
+        "nbt": {
+          "id": "3d8f5107-4927-4586-89b4-3bb7eefd1978",
+          "bow/basic_string_material": "basic_string/string",
+          "bow/string": "bow/basic_string",
+          "bow/straight_stave_material": "straight_stave/stick",
+          "Damage": 0,
+          "honing_progress": 112,
+          "bow/stave:stave/wrap/leather": 0,
+          "bow/stave": "bow/straight_stave",
+          "HideFlags": 1
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Archer's Adjustments"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

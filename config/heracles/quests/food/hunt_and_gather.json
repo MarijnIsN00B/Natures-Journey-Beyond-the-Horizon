@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "crops_of_the_wild"
+  ],
+  "tasks": {
+    "farmersdelight:main/craft_knife": {
+      "title": "Craft a knife",
+      "advancements": [
+        "farmersdelight:main/craft_knife"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "5 levels": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "bonemeal": {
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a Knife to scavenge extra goods from plants and animals."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          0,
+          30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:flint_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hunt and Gather"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

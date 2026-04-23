@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "crops_of_the_wild"
+  ],
+  "tasks": {
+    "farmersdelight:main/harvest_rope": {
+      "title": "Harvest a tomato on a rope",
+      "advancements": [
+        "farmersdelight:main/harvest_ropelogged_tomato"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "pizza": {
+      "title": "Make some pizzas!",
+      "item": {
+        "id": "farmersdelight:wheat_dough",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Hang some rope above a tomate crop to make it grow taller."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          -45,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:tomato",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tall-mato"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "sturdier_rocks"
+  ],
+  "tasks": {
+    "windmill_sail": {
+      "type": "heracles:item",
+      "item": "create:sail_frame",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "Craft 4 Windmill Sail Frames"
+    }
+  },
+  "rewards": {
+    "wool": {
+      "title": "Get Some Wool!",
+      "item": {
+        "id": "minecraft:shears",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Assemble a windmill and use it to generate torque"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          20,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:sail_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Mild Breeze"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

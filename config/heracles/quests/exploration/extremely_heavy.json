@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "quite_heavy"
+  ],
+  "tasks": {
+    "asd": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:diamond_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "diamond": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "craftingupgrade": {
+      "item": {
+        "id": "sophisticatedbackpacks:crafting_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade your backpack to diamond"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          120,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:diamond_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Extremely Heavy!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

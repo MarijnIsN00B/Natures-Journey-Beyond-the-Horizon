@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "getting_an_upgrade"
+  ],
+  "tasks": {
+    "ironbackpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:gold_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "10levels": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade your backpack to gold"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          90,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:gold_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quite Heavy"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

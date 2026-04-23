@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "cutting_a_new_one"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade a sword's hilt or strengthen the sword with a binding to increase its integrity"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          35,
+          -145
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_sword",
+        "count": 1,
+        "nbt": {
+          "sword/basic_blade_material": "basic_blade/gold",
+          "id": "efed8aa0-72a9-4031-b064-53221db67258",
+          "HideFlags": 1,
+          "sword/basic_hilt_material": "basic_hilt/stick",
+          "sword/hilt": "sword/basic_hilt",
+          "weapon_attributes": "{\"parent\":\"bettercombat:sword\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"sword\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.2,\"randomness\":0.1}}]}}",
+          "sword/guard": "sword/binding",
+          "sword/blade": "sword/basic_blade",
+          "sword/binding_material": "sword_binding/leather",
+          "honing_progress": 305,
+          "Damage": 0,
+          "sword/hilt:hilt/wrap/string": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tightly Wrought"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

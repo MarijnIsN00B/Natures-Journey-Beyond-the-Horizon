@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "crops_of_the_wild"
+  ],
+  "tasks": {
+    "farmersdelight:main/plant_rice": {
+      "title": "Plant Rice in some shallow water",
+      "advancements": [
+        "farmersdelight:main/plant_rice"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Plant grains of Rice in a shallow water puddle."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          45,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:rice",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dipping Your Roots"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

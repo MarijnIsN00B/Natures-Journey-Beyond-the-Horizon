@@ -1,0 +1,42 @@
+{
+  "dependencies": [
+    "advanced_composting"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Organic Compost deyacs into Rich Soil, an upgrade for your farms!"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          0,
+          120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:rich_soil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Plant Food"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,16 @@
+filename = 'realisticbees-1.20.1-4.2.jar'
+name = 'Realistic Bees'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '08ddef7ff6a0934f316fbac37b2a00599c9c577c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6390675
+project-id = 410743

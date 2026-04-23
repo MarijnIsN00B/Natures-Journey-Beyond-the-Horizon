@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "hammer_iii"
+  ],
+  "tasks": {
+    "hammer4": {
+      "title": "Upgrade your hammer to blackstone",
+      "advancements": [
+        "tetra:upgrades/hammer_4"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "1_geode": {
+      "item": {
+        "id": "tetra:geode",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use stone to upgrade your hammer to blackstone level"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          150,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_double",
+        "count": 1,
+        "nbt": {
+          "double/handle": "double/basic_handle",
+          "double/head_right": "double/basic_hammer_right",
+          "double/basic_hammer_right_material": "basic_hammer/blackstone",
+          "double/basic_hammer_left_material": "basic_hammer/blackstone",
+          "id": "9b3c91b0-9f10-446f-8538-fdb94f98045a",
+          "Damage": 0,
+          "double/head_left": "double/basic_hammer_left",
+          "double/basic_handle_material": "basic_handle/spruce"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hammer IV"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

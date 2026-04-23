@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "hunt_and_gather"
+  ],
+  "tasks": {
+    "farmersdelight:main/harvest_stra": {
+      "title": "Harvest some straw",
+      "advancements": [
+        "farmersdelight:main/harvest_straw"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "water": {
+      "item": {
+        "id": "minecraft:water_bucket",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "bone": {
+      "item": {
+        "id": "minecraft:bone",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Harvest grass, wheat or rice with a Knife to collect Straw."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          0,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:straw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grasping at Straws"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

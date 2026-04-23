@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "bench_mk_ii"
+  ],
+  "tasks": {
+    "upgradevanillasword": {
+      "title": "Upgrade a vanilla sword in a workbench",
+      "advancements": [
+        "tetra:upgrades/sword_upgrade"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "pristinelapis": {
+      "item": {
+        "id": "tetra:pristine_lapis",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Place a vanilla sword in a workbench and upgrade it"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          60,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_sword",
+        "count": 1,
+        "nbt": {
+          "sword/blade": "sword/short_blade",
+          "sword/hilt": "sword/basic_hilt",
+          "sword/blade/settle_progress": 315,
+          "sword/hilt/settle_progress": 235,
+          "honing_progress": 195,
+          "Damage": 0,
+          "id": "4c8379df-768c-41a8-851e-38de8aee5c71",
+          "sword/basic_hilt_material": "basic_hilt/stick",
+          "sword/short_blade_material": "short_blade/iron"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cutting a New One"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

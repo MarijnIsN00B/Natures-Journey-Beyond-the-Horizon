@@ -1,0 +1,16 @@
+filename = 'immersive_armors-1.7.1+1.20.1-forge.jar'
+name = 'Immersive Armors'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5311ad33c339bbed4f1c66830a9f19d285d4cad3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6851704
+project-id = 580681

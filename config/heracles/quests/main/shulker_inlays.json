@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "simple_ulitilies"
+  ],
+  "tasks": {
+    "toolbeltupgraded": {
+      "title": "Fully upgrade a toolbelt",
+      "advancements": [
+        "tetra:upgrades/toolbelt_upgraded"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Fully upgrade your toolbelt"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_toolbelt",
+        "count": 1,
+        "nbt": {
+          "toolbelt/slot1": "toolbelt/strap_slot1",
+          "toolbelt/belt_material": "belt/inlaid",
+          "toolbelt/belt": "toolbelt/belt",
+          "toolbelt/strap_slot1_material": "strap1/leather",
+          "id": "42e6f11c-2207-4bc6-b670-72d90cfc2762"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Shulker Inlays"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

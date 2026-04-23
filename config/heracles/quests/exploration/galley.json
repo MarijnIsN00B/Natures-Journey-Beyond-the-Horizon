@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "afraid_to_get_wet"
+  ],
+  "tasks": {
+    "Galley": {
+      "type": "heracles:item",
+      "item": "#smallships:galleys",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": "#smallships:galleys",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -105,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "smallships:oak_galley",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Galleyoop"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

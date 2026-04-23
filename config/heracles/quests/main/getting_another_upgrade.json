@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "bench_mk_ii"
+  ],
+  "tasks": {
+    "tetra:upgrades/tool_upgrade": {
+      "title": "Upgrade any vanilla tool in a workbench",
+      "advancements": [
+        "tetra:upgrades/tool_upgrade"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "string": {
+      "item": {
+        "id": "minecraft:string",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "geode": {
+      "item": {
+        "id": "tetra:geode",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade any vanilla tool in a workbench"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          30,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_double",
+        "count": 1,
+        "nbt": {
+          "honing_progress": 290,
+          "double/head_right": "double/basic_pickaxe_right",
+          "HideFlags": 1,
+          "double/handle": "double/basic_handle",
+          "double/basic_pickaxe_right_material": "basic_pickaxe/stone",
+          "weapon_attributes": "{\"parent\":\"bettercombat:pickaxe\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"pickaxe\",\"attacks\":[{\"hitbox\":\"VERTICAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":90.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:pickaxe_swing\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}",
+          "double/head_left": "double/basic_pickaxe_left",
+          "double/basic_pickaxe_left_material": "basic_pickaxe/stone",
+          "double/basic_handle_material": "basic_handle/stick",
+          "Damage": 0,
+          "double/binding": "double/binding",
+          "id": "13beeebe-6df9-4937-8221-0837ecc6fa09",
+          "double/binding_material": "double_binding/string"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Getting Another Upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "basic_tinkering"
+  ],
+  "tasks": {
+    "toolbelt": {
+      "title": "Craft a very basic toolbelt from four pieces of string",
+      "advancements": [
+        "tetra:upgrades/toolbelt"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "leather": {
+      "item": {
+        "id": "minecraft:leather",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a very basic toolbelt from four pieces of string"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          30,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_toolbelt",
+        "count": 1,
+        "nbt": {
+          "id": "cdef1aa9-78c8-44e2-a308-8b3a3afd4077",
+          "toolbelt/slot1": "toolbelt/strap_slot1",
+          "toolbelt/strap_slot1_material": "strap1/leather",
+          "toolbelt/belt": "toolbelt/belt",
+          "toolbelt/belt_material": "belt/rope"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Simple Ulitilies"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

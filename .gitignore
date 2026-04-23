@@ -1,0 +1,16 @@
+# Ignore runtime stuff
+logs/
+crash-reports/
+saves/
+mods/.connector
+mods/.index
+options.txt
+usernamecache.json
+usercache.json
+
+# Ignore launcher-specific files
+*.log
+
+# Ignore large unnecessary files
+*.zip
+*.jar.tmp

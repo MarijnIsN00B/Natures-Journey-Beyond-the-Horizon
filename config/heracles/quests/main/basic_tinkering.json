@@ -1,0 +1,78 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "basictinkering": {
+      "title": "Make a Tetra hammer",
+      "advancements": [
+        "tetra:upgrades/root"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "bread": {
+      "item": {
+        "id": "minecraft:bread",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a hammer from two sticks and two planks"
+    },
+    "description": [
+      "**Repairing modular items**",
+      "Modular items van be repaired in a workbench",
+      "",
+      "* Repairing an item will require materials and appropriate tools for one of its modules",
+      "* Repairing will cycle over all of the item's modules",
+      "* Repairing magically unstable modules will cost experience",
+      "* Each repair fully restores the durability of the item",
+      "",
+      "",
+      "**Double headed tools**",
+      "When using double headed tools (e.g. pickaxes, axes, hammers) it's only the head with the highest value that will be considered when determining damage or harvest tier/efficiency."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          60,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_double",
+        "count": 1,
+        "nbt": {
+          "double/head_right": "double/basic_hammer_right",
+          "double/basic_hammer_left_material": "basic_hammer/oak",
+          "double/basic_hammer_right_material": "basic_hammer/oak",
+          "double/basic_handle_material": "basic_handle/stick",
+          "Damage": 0,
+          "double/head_left": "double/basic_hammer_left",
+          "double/handle": "double/basic_handle",
+          "id": "778eab0c-34ff-468e-886d-6b8667df58f2"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Tinkering"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

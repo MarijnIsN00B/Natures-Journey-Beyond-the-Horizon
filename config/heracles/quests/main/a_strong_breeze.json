@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "a_mild_breeze"
+  ],
+  "tasks": {
+    "create:windmill_maxed": {
+      "title": "Use at least 128 Windmill Sails to max out your windmill!",
+      "advancements": [
+        "create:windmill_maxed"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "thingh": {
+      "item": {
+        "id": "create:rotation_speed_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "gearbox": {
+      "item": {
+        "id": "create:gearbox",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Assemble a windmill of maximum strength"
+    },
+    "description": [
+      "## Assemble a Windmill of maximum strenght.",
+      "",
+      "To assemble a Windmill of maximum strenght, you will need at least 128 sails.",
+      "A windmill of this size will give you 8192 stress units and an RPM of 16."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -10,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:white_sail",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "A Strong Breeze"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

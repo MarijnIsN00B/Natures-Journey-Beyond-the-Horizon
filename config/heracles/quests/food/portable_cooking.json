@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "bonfire_lit"
+  ],
+  "tasks": {
+    "farmersdelight:main/use_skillet": {
+      "title": "Use a skillet to cook some food next to a campfire",
+      "advancements": [
+        "farmersdelight:main/use_skillet"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Use a Skillet to cook some food next to a campfire,"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          160,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:skillet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Portable Cooking"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

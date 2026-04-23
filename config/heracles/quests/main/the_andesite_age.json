@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "sturdier_rocks"
+  ],
+  "tasks": {},
+  "rewards": {
+    "Iron": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "andesitecasings": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          60,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Andesite Age"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

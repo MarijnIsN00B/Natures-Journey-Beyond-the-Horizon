@@ -1,0 +1,16 @@
+filename = 'tetratic-combat-expanded-1.20-2.8.3.jar'
+name = 'Tetratic Combat Expanded'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '03c61eac3c09aca508806ead0294c5b575d1ab6a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6764394
+project-id = 953635

@@ -1,0 +1,16 @@
+filename = 'Auroras-1.20.1-1.6.2.jar'
+name = 'Auroras'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f7ba6e761a5c439325c93f6d33b6b3feda3182bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6040671
+project-id = 1105290

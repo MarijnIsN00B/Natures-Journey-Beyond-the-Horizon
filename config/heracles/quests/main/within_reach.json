@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "bench_mk_ii"
+  ],
+  "tasks": {
+    "craftrack": {
+      "title": "Place a rack near a workbench",
+      "advancements": [
+        "tetra:upgrades/rack"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Place a rack near a workbench for easy access to your tools"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          85,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:rack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Within Reach"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

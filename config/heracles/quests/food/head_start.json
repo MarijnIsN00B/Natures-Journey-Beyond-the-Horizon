@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "crops_of_the_wild"
+  ],
+  "tasks": {
+    "cabbage": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "Harvest some Cabbage"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Plant and grow some cabbage"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          -15,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cabbage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Head Start"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

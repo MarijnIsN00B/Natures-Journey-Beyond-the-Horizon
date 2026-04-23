@@ -1,0 +1,16 @@
+filename = "Lazr's Lib-1.20-1.1.1.jar"
+name = "Lazr's Lib"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2be2715b4ed23d943533e5bff0929ac6ba271759'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5654672
+project-id = 1048285

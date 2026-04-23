@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "read_intro": {
+      "title": "Read the intro",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "bread": {
+      "item": {
+        "id": "minecraft:bread",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "**Welcome to /2/Nature's Journey/2/: /9/Beyond the Horizon/9/!**",
+      "",
+      "The sequel to Nature's Journey that takes exploration to new heights!",
+      "",
+      "In Nature's Journey: Beyond the Horizon, the focus is on pushing the boundaries of exploration. From starting in a world with nothing, to exploring the galaxy and bending it to your will!",
+      "",
+      "**Remember to /6/press U/6/ to open the quest menu!**"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          60,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:knowledge_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Welcome!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

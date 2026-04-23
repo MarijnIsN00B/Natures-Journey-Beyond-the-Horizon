@@ -1,0 +1,90 @@
+{
+  "dependencies": [
+    "cutting_a_new_one"
+  ],
+  "tasks": {
+    "tetra:upgrades/sword_hone": {
+      "title": "Hone a blade at a workbench",
+      "advancements": [
+        "tetra:upgrades/sword_hone"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "hone": {
+      "item": {
+        "id": "tetra:scroll_rolled",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "data": [
+              {
+                "glyphs": [
+                  15,
+                  14,
+                  15,
+                  15
+                ],
+                "schematics": [
+                  "tetra:hone/gild_1"
+                ],
+                "key": "hone/gild_1",
+                "material": 2,
+                "ribbon": "c9ae69",
+                "intricate": 1
+              }
+            ]
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use a sword until it can be honed, then hone it at a workbench"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          85,
+          -145
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_sword",
+        "count": 1,
+        "nbt": {
+          "honing_progress": 175,
+          "sword/basic_hilt_material": "basic_hilt/stick",
+          "id": "c47f81d8-d36b-4bb5-bfb8-e3d255a6f342",
+          "sword/hilt": "sword/basic_hilt",
+          "Damage": 0,
+          "weapon_attributes": "{\"parent\":\"bettercombat:cutlass\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"cutlass\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}",
+          "sword/machete_material": "machete/stone",
+          "HideFlags": 1,
+          "sword/blade": "sword/machete"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Honed Blade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Boat": {
+      "type": "heracles:item",
+      "item": "#minecraft:boats",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft a boat"
+    }
+  },
+  "rewards": {
+    "sponge": {
+      "item": {
+        "id": "minecraft:sponge",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -150,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:oak_boat",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Afraid to get Wet?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

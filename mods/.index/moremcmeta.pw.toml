@@ -1,0 +1,16 @@
+filename = 'moremcmeta-1.20.1-4.5.2-forge.jar'
+name = 'MoreMcmeta'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6046753a29d6963ad2a9c557b557bd7a2d793354'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6082464
+project-id = 442169

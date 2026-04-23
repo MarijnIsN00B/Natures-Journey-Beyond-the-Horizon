@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "hunt_and_gather"
+  ],
+  "tasks": {},
+  "rewards": {
+    "smoker": {
+      "item": {
+        "id": "minecraft:smoker",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use a Knife to extract Ham from Pigs or Hoglins."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          -30,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:ham",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wild Butcher"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

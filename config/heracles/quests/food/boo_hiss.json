@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "crops_of_the_wild"
+  ],
+  "tasks": {
+    "farmersdelight:main/hit_raider_w": {
+      "title": "Throw a Rotten Tomato at a Raide",
+      "advancements": [
+        "farmersdelight:main/hit_raider_with_rotten_tomato"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "Horn": {
+      "item": {
+        "id": "minecraft:goat_horn",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Throw a Rotten Tomato at one of these pesky raiders!"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          30,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:rotten_tomato",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Boo! Hiss!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

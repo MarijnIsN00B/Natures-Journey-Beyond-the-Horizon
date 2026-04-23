@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "afraid_to_get_wet"
+  ],
+  "tasks": {
+    "Brigg": {
+      "type": "heracles:item",
+      "item": "#smallships:briggs",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": "#smallships:briggs",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "cannonball": {
+      "item": {
+        "id": "smallships:cannon_ball",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "cannon": {
+      "item": {
+        "id": "smallships:cannon",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -135,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "smallships:oak_brigg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Brigg It On!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "sophisticatedbackpacks:backpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Get a Backpack",
+      "icon": {
+        "item": {
+          "id": "sophisticatedbackpacks:backpack",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "ancient_atlas": {
+      "title": "You'll need this on your travels",
+      "item": {
+        "id": "antiqueatlas:empty_antique_atlas",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Make a backpack!"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          0,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "I'm Going on an Adventure!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

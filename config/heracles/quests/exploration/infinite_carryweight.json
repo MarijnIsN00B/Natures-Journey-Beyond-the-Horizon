@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "extremely_heavy"
+  ],
+  "tasks": {
+    "netheritebackpack": {
+      "type": "heracles:item",
+      "item": "sophisticatedbackpacks:netherite_backpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "10levels": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "storageupgrade": {
+      "item": {
+        "id": "sophisticatedbackpacks:stack_upgrade_tier_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade your backpack to netherite"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          150,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "sophisticatedbackpacks:netherite_backpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "(Almost) Infinite Carryweight!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

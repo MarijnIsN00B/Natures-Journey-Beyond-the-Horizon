@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "sturdier_rocks"
+  ],
+  "tasks": {},
+  "rewards": {
+    "steak": {
+      "item": {
+        "id": "farmersdelight:steak_and_potatoes",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          20,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:hand_crank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crank That!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

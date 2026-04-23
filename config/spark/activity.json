@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "MarijnIsN00B",
+      "uniqueId": "1e82226d-b2f3-4a9c-afca-eb4f910f0287"
+    },
+    "time": 1776535182520,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OqAlpXkDyk"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "MarijnIsN00B",
+      "uniqueId": "1e82226d-b2f3-4a9c-afca-eb4f910f0287"
+    },
+    "time": 1736177232208,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "C:\\Users\\Marijn\\AppData\\Roaming\\PrismLauncher\\instances\\Nature\u0027s Journey Beyond the Horizon\\.minecraft\\config\\spark\\heap-2025-01-06_16.26.36.hprof"
+    }
+  }
+]

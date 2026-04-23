@@ -1,0 +1,27 @@
+
+[Thrusters]
+	#Thruster Mode Toggling
+	thruster_mode_toggle = true
+	#Default Thruster Mode
+	thruster_default_mode = "POSITION"
+	#Thruster force multiplier. redstone * this (Newtons)
+	thruster_strength = 8000
+	#Air thruster force multiplier. redstone * this (Newtons)
+	air_thruster_strength = 500
+	#Powerful thruster force multiplier. redstone * this (Newtons)
+	powerful_thruster_strength = 30000
+
+[Misc]
+	#Max force the drag inducer can use to slow down
+	max_drag = 15000
+	#Limit speed thrusters can accelerate to. Recommended, as VS ships get funky at high speeds
+	limit_speed = true
+	#Max speed to limit to. Blocks/tick I think. Default is highly recommended
+	max_speed = 150
+	#Cancel multi-block assemblies when above world height. This is a temporary fix, but for now ships made above world height have issues with starlance.
+	cancel_assembly = true
+	#Distance (in blocks) at which magnet boots will pull you in
+	magnet_boot_distance = 6
+	#Max acceleration magnet boots will apply at close distances to move the player downwards.
+	magnet_boot_max_force = 0.1
+

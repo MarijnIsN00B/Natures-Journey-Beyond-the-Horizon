@@ -1,0 +1,111 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "cabbage": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "tomato": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "rice": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "onion": {
+      "type": "heracles:item",
+      "item": "farmersdelight:onion",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "spice_of_life": {
+      "item": {
+        "id": "solcarrot:food_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "hoe": {
+      "item": {
+        "id": "minecraft:iron_hoe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Four new crops may be found in the wild, across many climates..."
+    },
+    "description": [
+      "# Time to Cook!",
+      "",
+      "Find all the new crops added by /2/Farmers Delight/2/.",
+      "",
+      "These crops will start your journey on making /6/amazing meals/6/ for you and all your companions!",
+      "",
+      "",
+      "<columns>",
+      "    <column>",
+      "<columns>",
+      "    <column>",
+      "<item id=\"farmersdelight:cabbage\" scale=\"3.0\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<item id=\"farmersdelight:tomato\" scale=\"3.0\"> </item>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "    <column>",
+      "<columns>",
+      "    <column>",
+      "<item id=\"farmersdelight:onion\" scale=\"3.0\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<item id=\"farmersdelight:rice\" scale=\"3.0\"> </item>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:wild_onions",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Crops of the Wild"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "afraid_to_get_wet"
+  ],
+  "tasks": {
+    "<tag:items:smallships:cogs>": {
+      "icon": {
+        "item": "#smallships:cogs",
+        "type": "heracles:item"
+      },
+      "item": "#smallships:cogs",
+      "title": "Craft any cog",
+      "type": "heracles:item_interaction"
+    }
+  },
+  "rewards": {
+    "cookie": {
+      "item": {
+        "id": "minecraft:cookie",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "bedroll": {
+      "item": {
+        "id": "comforts:sleeping_bag_white",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "cookies": {
+      "item": {
+        "id": "farmersdelight:honey_cookie",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -195,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "smallships:oak_cog",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nice Cog ;)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

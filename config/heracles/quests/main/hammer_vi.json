@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "hammer_v"
+  ],
+  "tasks": {
+    "hammer6": {
+      "title": "Upgrade your hammer to Netherite",
+      "advancements": [
+        "tetra:upgrades/hammer_6"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "10levels": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "netherite": {
+      "item": {
+        "id": "minecraft:netherite_ingot",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use stone to upgrade your hammer to netherite level"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          210,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_double",
+        "count": 1,
+        "nbt": {
+          "Damage": 0,
+          "double/head_left": "double/basic_hammer_left",
+          "id": "4df6703c-be0c-4ba7-a0d6-f6450e030966",
+          "double/head_right": "double/basic_hammer_right",
+          "double/basic_hammer_left_material": "basic_hammer/netherite",
+          "double/basic_handle_material": "basic_handle/forged_beam",
+          "double/basic_hammer_right_material": "basic_hammer/netherite",
+          "double/handle": "double/basic_handle"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Hammer VI"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

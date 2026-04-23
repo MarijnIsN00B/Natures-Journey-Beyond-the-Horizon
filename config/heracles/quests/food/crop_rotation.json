@@ -1,0 +1,725 @@
+{
+  "dependencies": [
+    "layers",
+    "tallmato",
+    "dipping_your_roots",
+    "head_start"
+  ],
+  "tasks": {
+    "wheat ": {
+      "type": "heracles:item",
+      "item": "minecraft:wheat",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "pumpkin ": {
+      "type": "heracles:item",
+      "item": "minecraft:pumpkin",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "cabbage": {
+      "type": "heracles:item",
+      "item": "farmersdelight:cabbage",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "onion": {
+      "type": "heracles:item",
+      "item": "farmersdelight:onion",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "nether wart": {
+      "type": "heracles:item",
+      "item": "minecraft:nether_wart",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "sweet berries": {
+      "type": "heracles:item",
+      "item": "minecraft:sweet_berries",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "chorus ": {
+      "type": "heracles:item",
+      "item": "minecraft:chorus_fruit",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "tomato": {
+      "type": "heracles:item",
+      "item": "farmersdelight:tomato",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "kelp": {
+      "type": "heracles:item",
+      "item": "minecraft:kelp",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "rice": {
+      "type": "heracles:item",
+      "item": "farmersdelight:rice",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "sugar cane": {
+      "type": "heracles:item",
+      "item": "minecraft:sugar_cane",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "potato ": {
+      "type": "heracles:item",
+      "item": "minecraft:potato",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "beetroot": {
+      "type": "heracles:item",
+      "item": "minecraft:beetroot",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "cocoa": {
+      "type": "heracles:item",
+      "item": "minecraft:cocoa_beans",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "melon ": {
+      "type": "heracles:item",
+      "item": "minecraft:melon_slice",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "farmersdelight:main/plant_all_cr": {
+      "title": "Cultivate every food-related plant you can find.",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:cabbage",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [],
+      "type": "heracles:advancement"
+    },
+    "redmushroom": {
+      "type": "heracles:item",
+      "item": "minecraft:red_mushroom",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "glow berries": {
+      "type": "heracles:item",
+      "item": "minecraft:glow_berries",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "mushroom": {
+      "type": "heracles:item",
+      "item": "minecraft:brown_mushroom",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "carrot": {
+      "type": "heracles:item",
+      "item": "minecraft:carrot",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "netherite_hoe": {
+      "item": {
+        "id": "minecraft:netherite_hoe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "bee nest": {
+      "item": {
+        "id": "minecraft:bee_nest",
+        "count": 3,
+        "nbt": {
+          "BlockStateTag": {
+            "honey_level": 0
+          },
+          "BlockEntityTag": {
+            "Bees": [
+              {
+                "EntityData": {
+                  "forge:spawn_type": "SPAWN_EGG",
+                  "Health": 10,
+                  "HasStung": 0,
+                  "ForcedAge": 0,
+                  "Invulnerable": 0,
+                  "ForgeData": {},
+                  "TrackedData": {},
+                  "ForgeCaps": {
+                    "curios:inventory": {
+                      "Curios": []
+                    }
+                  },
+                  "CanUpdate": 1,
+                  "Tags": [
+                    "realisticbees.ignorebee",
+                    "SpawnReason.SPAWN_EGG"
+                  ],
+                  "AngerTime": 0,
+                  "Attributes": [
+                    {
+                      "Name": "forge:step_height_addition",
+                      "Base": 0
+                    },
+                    {
+                      "Base": 0.3,
+                      "Name": "minecraft:generic.movement_speed"
+                    },
+                    {
+                      "Modifiers": [
+                        {
+                          "Amount": 0.018041118683069273,
+                          "Name": "Random spawn bonus",
+                          "UUID": [
+                            1697389044,
+                            1345931053,
+                            -1348331253,
+                            -1615819470
+                          ],
+                          "Operation": 1
+                        }
+                      ],
+                      "Name": "minecraft:generic.follow_range",
+                      "Base": 48
+                    },
+                    {
+                      "Name": "forge:entity_gravity",
+                      "Base": 0.08
+                    },
+                    {
+                      "Name": "divine_weaponry:zeus_relay",
+                      "Base": 0
+                    }
+                  ],
+                  "PersistenceRequired": 0,
+                  "fabric:attachments": {
+                    "accessories:inventory_holder": {}
+                  },
+                  "CitadelData": {},
+                  "HasNectar": 0,
+                  "BalmData": {},
+                  "InLove": 0,
+                  "AbsorptionAmount": 0,
+                  "id": "minecraft:bee",
+                  "Age": 0
+                },
+                "MinOccupationTicks": 600,
+                "TicksInHive": 53
+              },
+              {
+                "TicksInHive": 45,
+                "EntityData": {
+                  "CanUpdate": 1,
+                  "Age": 0,
+                  "ForcedAge": 0,
+                  "forge:spawn_type": "SPAWN_EGG",
+                  "TrackedData": {},
+                  "BalmData": {},
+                  "AngerTime": 0,
+                  "CitadelData": {},
+                  "ForgeData": {},
+                  "PersistenceRequired": 0,
+                  "Attributes": [
+                    {
+                      "Name": "forge:step_height_addition",
+                      "Base": 0
+                    },
+                    {
+                      "Name": "minecraft:generic.movement_speed",
+                      "Base": 0.3
+                    },
+                    {
+                      "Base": 48,
+                      "Modifiers": [
+                        {
+                          "Amount": -0.030431888100552577,
+                          "UUID": [
+                            -1878155304,
+                            -412268101,
+                            -1495336475,
+                            -1184380961
+                          ],
+                          "Name": "Random spawn bonus",
+                          "Operation": 1
+                        }
+                      ],
+                      "Name": "minecraft:generic.follow_range"
+                    },
+                    {
+                      "Base": 0.08,
+                      "Name": "forge:entity_gravity"
+                    },
+                    {
+                      "Name": "divine_weaponry:zeus_relay",
+                      "Base": 0
+                    }
+                  ],
+                  "fabric:attachments": {
+                    "accessories:inventory_holder": {}
+                  },
+                  "HasNectar": 0,
+                  "Tags": [
+                    "realisticbees.ignorebee",
+                    "SpawnReason.SPAWN_EGG"
+                  ],
+                  "id": "minecraft:bee",
+                  "HasStung": 0,
+                  "Invulnerable": 0,
+                  "InLove": 0,
+                  "Health": 10,
+                  "ForgeCaps": {
+                    "curios:inventory": {
+                      "Curios": []
+                    }
+                  },
+                  "AbsorptionAmount": 0
+                },
+                "MinOccupationTicks": 600
+              },
+              {
+                "MinOccupationTicks": 600,
+                "TicksInHive": 37,
+                "EntityData": {
+                  "ForgeCaps": {
+                    "curios:inventory": {
+                      "Curios": []
+                    }
+                  },
+                  "PersistenceRequired": 0,
+                  "fabric:attachments": {
+                    "accessories:inventory_holder": {}
+                  },
+                  "TrackedData": {},
+                  "Attributes": [
+                    {
+                      "Base": 0,
+                      "Name": "forge:step_height_addition"
+                    },
+                    {
+                      "Base": 0.3,
+                      "Name": "minecraft:generic.movement_speed"
+                    },
+                    {
+                      "Base": 48,
+                      "Modifiers": [
+                        {
+                          "Name": "Random spawn bonus",
+                          "UUID": [
+                            -650870985,
+                            -1519172540,
+                            -1414743213,
+                            1944464680
+                          ],
+                          "Amount": -0.018344115525132813,
+                          "Operation": 1
+                        }
+                      ],
+                      "Name": "minecraft:generic.follow_range"
+                    },
+                    {
+                      "Name": "forge:entity_gravity",
+                      "Base": 0.08
+                    },
+                    {
+                      "Name": "divine_weaponry:zeus_relay",
+                      "Base": 0
+                    }
+                  ],
+                  "CanUpdate": 1,
+                  "HasStung": 0,
+                  "BalmData": {},
+                  "AbsorptionAmount": 0,
+                  "Age": 0,
+                  "ForcedAge": 0,
+                  "CitadelData": {},
+                  "ForgeData": {},
+                  "forge:spawn_type": "SPAWN_EGG",
+                  "Tags": [
+                    "realisticbees.ignorebee",
+                    "SpawnReason.SPAWN_EGG"
+                  ],
+                  "HasNectar": 0,
+                  "Invulnerable": 0,
+                  "id": "minecraft:bee",
+                  "AngerTime": 0,
+                  "InLove": 0,
+                  "Health": 10
+                }
+              },
+              {
+                "TicksInHive": 29,
+                "MinOccupationTicks": 600,
+                "EntityData": {
+                  "forge:spawn_type": "SPAWN_EGG",
+                  "ForgeCaps": {
+                    "curios:inventory": {
+                      "Curios": []
+                    }
+                  },
+                  "fabric:attachments": {
+                    "accessories:inventory_holder": {}
+                  },
+                  "Age": 0,
+                  "CitadelData": {},
+                  "ForcedAge": 0,
+                  "Health": 10,
+                  "AbsorptionAmount": 0,
+                  "HasNectar": 0,
+                  "Tags": [
+                    "realisticbees.ignorebee",
+                    "SpawnReason.SPAWN_EGG"
+                  ],
+                  "InLove": 0,
+                  "CanUpdate": 1,
+                  "AngerTime": 0,
+                  "id": "minecraft:bee",
+                  "Invulnerable": 0,
+                  "BalmData": {},
+                  "HasStung": 0,
+                  "Attributes": [
+                    {
+                      "Name": "forge:step_height_addition",
+                      "Base": 0
+                    },
+                    {
+                      "Base": 0.3,
+                      "Name": "minecraft:generic.movement_speed"
+                    },
+                    {
+                      "Modifiers": [
+                        {
+                          "Amount": -0.02449688393670989,
+                          "UUID": [
+                            1428872433,
+                            -2118369108,
+                            -2112647485,
+                            -943552540
+                          ],
+                          "Operation": 1,
+                          "Name": "Random spawn bonus"
+                        }
+                      ],
+                      "Name": "minecraft:generic.follow_range",
+                      "Base": 48
+                    },
+                    {
+                      "Name": "forge:entity_gravity",
+                      "Base": 0.08
+                    },
+                    {
+                      "Name": "divine_weaponry:zeus_relay",
+                      "Base": 0
+                    }
+                  ],
+                  "TrackedData": {},
+                  "ForgeData": {},
+                  "PersistenceRequired": 0
+                }
+              },
+              {
+                "TicksInHive": 15,
+                "EntityData": {
+                  "Age": 0,
+                  "AbsorptionAmount": 0,
+                  "HasNectar": 0,
+                  "CanUpdate": 1,
+                  "fabric:attachments": {
+                    "accessories:inventory_holder": {}
+                  },
+                  "PersistenceRequired": 0,
+                  "CitadelData": {},
+                  "AngerTime": 0,
+                  "Invulnerable": 0,
+                  "id": "minecraft:bee",
+                  "ForgeCaps": {
+                    "curios:inventory": {
+                      "Curios": []
+                    }
+                  },
+                  "ForcedAge": 0,
+                  "InLove": 0,
+                  "forge:spawn_type": "SPAWN_EGG",
+                  "ForgeData": {},
+                  "BalmData": {},
+                  "Attributes": [
+                    {
+                      "Base": 0,
+                      "Name": "forge:step_height_addition"
+                    },
+                    {
+                      "Base": 0.3,
+                      "Name": "minecraft:generic.movement_speed"
+                    },
+                    {
+                      "Name": "minecraft:generic.follow_range",
+                      "Modifiers": [
+                        {
+                          "UUID": [
+                            1229681634,
+                            1879327150,
+                            -1702410194,
+                            21906190
+                          ],
+                          "Operation": 1,
+                          "Amount": 0.007140313948567662,
+                          "Name": "Random spawn bonus"
+                        }
+                      ],
+                      "Base": 48
+                    },
+                    {
+                      "Name": "forge:entity_gravity",
+                      "Base": 0.08
+                    },
+                    {
+                      "Name": "divine_weaponry:zeus_relay",
+                      "Base": 0
+                    }
+                  ],
+                  "TrackedData": {},
+                  "Health": 10,
+                  "HasStung": 0,
+                  "Tags": [
+                    "realisticbees.ignorebee",
+                    "SpawnReason.SPAWN_EGG"
+                  ]
+                },
+                "MinOccupationTicks": 600
+              }
+            ],
+            "id": "minecraft:beehive"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Cultivate every food-related plant you can find."
+    },
+    "description": [
+      "## Farming like a Pro",
+      "",
+      "If you want to make sure you never run out of food, you have to make sure you have /2/every kind of food/2/!",
+      "",
+      "/6/Find, plant and harvest/6/ 16 of every kind of food in this list:",
+      "",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"minecraft:beetroot\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Beetroot Crop</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"minecraft:brown_mushroom\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Brown Mushroom</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"farmersdelight:cabbage\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Cabbage Crop</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"minecraft:carrot\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Carrots</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"minecraft:chorus_fruit\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Chorus Fruit</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"minecraft:cocoa_beans\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Cocoa Beans</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"minecraft:glow_berries\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Glow Berries</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"minecraft:kelp\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Kelp</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"minecraft:melon\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Melon</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"minecraft:nether_wart\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Nether Wart</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"farmersdelight:onion\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Onion</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"minecraft:potato\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Potato</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"minecraft:pumpkin\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Pumpkin</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"minecraft:red_mushroom\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Red Mushroom</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"farmersdelight:rice\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Rice</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"minecraft:sugar_cane\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Sugar Cane</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"minecraft:sweet_berries\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Sweet Berries</p>",
+      "    </column>",
+      "    <column>",
+      "<columns template=\"10 90\">",
+      "    <column>",
+      "<item id=\"farmersdelight:tomato\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Tomato</p>",
+      "    </column>",
+      "</columns>",
+      "    </column>",
+      "</columns>",
+      "<columns template=\"5 45 50\">",
+      "    <column>",
+      "<item id=\"minecraft:wheat\" scale=\"1.0\" align=\"left\"> </item>",
+      "    </column>",
+      "    <column>",
+      "<p>Wheat</p>",
+      "    </column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          0,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cabbage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "Crop Rotation"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

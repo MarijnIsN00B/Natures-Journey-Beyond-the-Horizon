@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "bonfire_lit"
+  ],
+  "tasks": {},
+  "rewards": {
+    "bowl": {
+      "item": {
+        "id": "minecraft:bowl",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Put down a Cooking Pot and start preparing meals!"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          160,
+          40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dinner's Served!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

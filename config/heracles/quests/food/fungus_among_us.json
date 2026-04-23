@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "crops_of_the_wild"
+  ],
+  "tasks": {},
+  "rewards": {
+    "compost": {
+      "item": {
+        "id": "farmersdelight:organic_compost",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "bone_meal": {
+      "item": {
+        "id": "minecraft:bone_meal",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Shear a fully mature Mushroom Colony."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          -30,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:red_mushroom_colony",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fungus Among Us"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

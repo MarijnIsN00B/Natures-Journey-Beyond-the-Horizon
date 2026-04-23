@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "basic_tinkering"
+  ],
+  "tasks": {
+    "Upgrade a crafting table": {
+      "title": "Upgrade a crafting table by righ",
+      "advancements": [
+        "tetra:upgrades/workbench"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          60,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:basic_workbench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bench MK II"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "hammer_iv"
+  ],
+  "tasks": {
+    "hammer5": {
+      "title": "Upgrade your hammer to Obsidian",
+      "advancements": [
+        "tetra:upgrades/hammer_5"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "fireres": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:long_fire_resistance"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use stone to upgrade your hammer to obsidian level"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          180,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_double",
+        "count": 1,
+        "nbt": {
+          "Damage": 0,
+          "id": "54d0e6f8-65ec-4d08-86f3-fe8219fd4bb9",
+          "double/basic_hammer_right_material": "basic_hammer/obsidian",
+          "double/basic_hammer_left_material": "basic_hammer/obsidian",
+          "double/head_left": "double/basic_hammer_left",
+          "double/head_right": "double/basic_hammer_right",
+          "double/handle": "double/basic_handle",
+          "double/basic_handle_material": "basic_handle/iron"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Hammer V"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

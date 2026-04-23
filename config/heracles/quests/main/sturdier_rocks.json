@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "andesite_alloy": {
+      "type": "heracles:item",
+      "item": "create:andesite_alloy",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "Craft Andesite Alloy"
+    }
+  },
+  "rewards": {
+    "Andesite Alloy": {
+      "item": {
+        "id": "create:shaft",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "cog": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "big_cog": {
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Use Andesite and Iron Nuggets to make Andesite Alloy.",
+      "",
+      "You will use this for most of your Create creations!"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          60,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sturdier Rocks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

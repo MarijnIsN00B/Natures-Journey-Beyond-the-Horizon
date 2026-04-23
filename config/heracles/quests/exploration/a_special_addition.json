@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {
+    "fireres": {
+      "item": {
+        "id": "minecraft:potion",
+        "count": 3,
+        "nbt": {
+          "Potion": "minecraft:long_fire_resistance"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find a Small Nether Dungeon"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -300,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:red_nether_bricks",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "A Special Addition"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "COMPLETED",
+    "unlockNotification": false
+  }
+}

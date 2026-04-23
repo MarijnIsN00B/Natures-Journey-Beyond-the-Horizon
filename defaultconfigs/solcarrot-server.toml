@@ -1,0 +1,26 @@
+
+[milestones]
+	#Number of hearts you start out with.
+	#Range: 0 ~ 1000
+	baseHearts = 10
+	#Number of hearts you gain for reaching a new milestone.
+	#Range: 0 ~ 1000
+	heartsPerMilestone = 1
+	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
+	milestones = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40]
+
+[filtering]
+	#Foods in this list won't affect the player's health nor show up in the food book.
+	blacklist = []
+	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
+	whitelist = ["natures_spirit:whole_pizza", "farmersrespite:black_cod", "farmersrespite:tea_curry", "farmersrespite:blazing_chili", "farmersrespite:coffee_cake_slice", "farmersrespite:rose_hip_pie_slice", "farmersdelight:bacon_and_eggs", "farmersdelight:pasta_with_meatballs", "farmersdelight:pasta_with_mutton_chop", "farmersdelight:grilled_salmon", "farmersdelight:stuffed_pumpkin", "farmersdelight:roast_chicken", "farmersdelight:squid_ink_pasta", "farmersdelight:ratatouille", "farmersdelight:steak_and_potatoes", "farmersdelight:vegetable_noodles", "farmersdelight:roasted_mutton_chops", "farmersdelight:mushroom_rice", "farmersdelight:fried_rice", "farmersdelight:fish_stew", "farmersdelight:vegetable_soup", "nethersdelight:magma_gelatin", "nethersdelight:nether_skewer", "minecraft:rabbit_stew", "minecraft:golden_apple", "minecraft:enchanted_golden_apple", "delightful:cactus_chili", "farmersdelight:shepherds_pie", "farmersdelight:honey_glazed_ham", "farmersdelight:pasta_with_mutton_chop", "farmersdelight:pasta_with_meatballs", "farmersdelight:bacon_and_eggs", "farmersdelight:noodle_soup", "farmersdelight:baked_cod_stew", "farmersdelight:pumpkin_soup", "delightful:stuffed_cantaloupe", "delightful:smore", "delightful:deluxe_cheeseburger", "delightful:cheeseburger", "delightful:nut_butter_and_jam_sandwich", "delightful:azalea_tea", "delightful:field_salad", "delightful:sinigang", "delightful:cactus_soup", "ends_delight:roasted_dragon_steak", "ends_delight:stir_fried_shulker_meat", "ends_delight:enderman_gristle_stew", "ends_delight:ender_noodle", "ends_delight:shulker_soup", "ends_delight:dragon_breath_and_chorus_soup", "ends_delight:ender_congee", "ends_delight:ender_bamboo_rice", "ends_delight:roasted_dragon_meat", "alexscaves:sundae", "alexscaves:primordial_soup", "alexscaves:seething_stew", "alexscaves:serene_salad", "alexscaves:dinosaur_nugget", "ends_delight:grilled_shulker", "ends_delight:dragon_meat_stew", "ends_delight:steamed_dragon_egg", "ends_delight:dragon_leg_with_sauce", "farmersdelight:chicken_soup", "farmersdelight:beef_stew", "farmersdelight:bone_broth", "oceansdelight:bowl_of_guardian_soup", "oceansdelight:cooked_stuffed_cod", "oceansdelight:cabbage_wrapped_elder_guardian", "minecolonies:hand_pie", "minecolonies:mintchoco_cheesecake", "minecolonies:borscht", "minecolonies:schnitzel", "minecolonies:steak_dinner", "minecolonies:lamb_stew", "minecolonies:fish_dinner", "minecolonies:sushi_roll", "minecolonies:ramen", "minecolonies:eggplant_dolma", "minecolonies:stuffed_pita", "minecolonies:mushroom_pizza", "minecolonies:pita_hummus", "minecolonies:spicy_eggplant", "minecolonies:stew_trencher", "minecolonies:stuffed_pepper", "minecolonies:tacos", "nethersdelight:grilled_strider", "nethersdelight:strider_moss_stew", "nethersdelight:plate_of_stuffed_hoglin_snout", "nethersdelight:plate_of_stuffed_hoglin_ham", "nethersdelight:plate_of_stuffed_hoglin_roast", "farmersrespite:blazing_chili", "farmersrespite:black_cod", "farmersrespite:coffee_cake_slice", "farmersrespite:tea_curry", "farmersrespite:rose_hip_pie_slice"]
+	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
+	#Range: 0 ~ 1000
+	minimumFoodValue = 1
+
+[miscellaneous]
+	#Whether or not to reset the food list on death, effectively losing all bonus hearts.
+	resetOnDeath = false
+	#If true, eating foods outside of survival mode (e.g. creative/adventure) is not tracked and thus does not contribute towards progression.
+	limitProgressionToSurvival = false
+

@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "afraid_to_get_wet"
+  ],
+  "tasks": {
+    "Drakkar": {
+      "type": "heracles:item",
+      "item": "#smallships:drakkars",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft any Drakkar",
+      "icon": {
+        "item": "#smallships:drakkars",
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "shield": {
+      "item": {
+        "id": "minecraft:shield",
+        "count": 2,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "fish": {
+      "item": {
+        "id": "minecraft:cooked_cod",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "viking": {
+      "item": {
+        "id": "minecraft:iron_axe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "cider": {
+      "item": {
+        "id": "farmersdelight:apple_cider",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -165,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "smallships:oak_drakkar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Prepare for Valhalla!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "sturdier_rocks"
+  ],
+  "tasks": {
+    "create:water_wheel": {
+      "title": "Place a water wheel and use it to generate torque",
+      "icon": {
+        "item": {
+          "id": "create:water_wheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "create:water_wheel"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "Shaft": {
+      "item": {
+        "id": "create:shaft",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "Water Bucket": {
+      "item": {
+        "id": "minecraft:water_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "cog": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "big_cog": {
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Place a Water Wheel and use it to generate torque"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          20,
+          20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:water_wheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Harnessed Hydraulics"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

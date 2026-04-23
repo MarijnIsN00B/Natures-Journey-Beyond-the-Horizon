@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "bench_mk_ii"
+  ],
+  "tasks": {
+    "upgradeshield": {
+      "title": "Upgrade a shield in a workbench",
+      "advancements": [
+        "tetra:upgrades/shield_upgrade"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "banner": {
+      "item": {
+        "id": "minecraft:white_banner",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "bannerpattern": {
+      "item": {
+        "id": "minecraft:skull_banner_pattern",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade a shield in a workbench"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          90,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_shield",
+        "count": 1,
+        "nbt": {
+          "id": "82ec4b52-6caf-4913-a191-761e9fadaa4d",
+          "Damage": 0,
+          "shield/tower_material": "tower/oak",
+          "shield/plate": "shield/tower",
+          "shield/grip": "shield/straps",
+          "shield/plate:shield/trim/iron": 0,
+          "shield/plate:shield/studs/iron": 0,
+          "shield/straps_material": "straps/leather",
+          "HideFlags": 1,
+          "honing_progress": 144
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Adaptive Protection"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

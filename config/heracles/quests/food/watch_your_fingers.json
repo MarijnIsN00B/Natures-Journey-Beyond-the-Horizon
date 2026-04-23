@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "hunt_and_gather"
+  ],
+  "tasks": {
+    "farmersdelight:main/use_cutting_": {
+      "title": "Craft and use a cutting board",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:cutting_board",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "farmersdelight:main/use_cutting_board"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Use a Cutting Board to break down an item."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          30,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:cutting_board",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Watch Your Fingers"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

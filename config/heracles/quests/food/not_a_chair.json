@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "bonfire_lit"
+  ],
+  "tasks": {
+    "stove": {
+      "type": "heracles:item",
+      "item": "farmersdelight:stove",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft a Stove"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Craft and place a stove"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          100,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:stove",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Not a Chair!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

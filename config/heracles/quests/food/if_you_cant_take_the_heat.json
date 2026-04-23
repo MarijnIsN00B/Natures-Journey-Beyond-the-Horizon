@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "watch_your_fingers"
+  ],
+  "tasks": {},
+  "rewards": {
+    "10levels": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Spend a Netherite Ingot to upgrade your Knife."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          30,
+          75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:netherite_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "If You Can't Take the Heat..."
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

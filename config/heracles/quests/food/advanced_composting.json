@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "grasping_at_straws"
+  ],
+  "tasks": {
+    "farmersdelight:main/place_organi": {
+      "title": "Place some Organic Compost",
+      "icon": {
+        "item": {
+          "id": "farmersdelight:organic_compost",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "farmersdelight:main/place_organic_compost"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "mushroom": {
+      "item": {
+        "id": "minecraft:brown_mushroom",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "red mushroom": {
+      "item": {
+        "id": "minecraft:red_mushroom",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Place down some Organic Compost."
+    },
+    "description": [
+      "Organic Compost is used to make Rich Soil, and Rich Soil is used to speed up crop growth."
+    ],
+    "groups": {
+      "Food": {
+        "position": [
+          0,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmersdelight:organic_compost",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Composting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

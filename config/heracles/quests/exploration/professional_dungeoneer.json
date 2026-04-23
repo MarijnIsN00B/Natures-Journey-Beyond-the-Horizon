@@ -1,0 +1,46 @@
+{
+  "dependencies": [
+    "a_bone_to_pick",
+    "cobweb_entanglement",
+    "when_in_rome",
+    "quite_the_renovation"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Explore all of the Better Dungeons"
+    },
+    "description": [],
+    "groups": {
+      "Exploration": {
+        "position": [
+          -300,
+          60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Professional Dungeoneer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

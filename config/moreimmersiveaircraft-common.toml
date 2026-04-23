@@ -1,0 +1,13 @@
+#Drop planes when not broken by a player #default true
+drop_vehicles = true
+
+["Engined Vehicle Crashes"]
+	#Enable engined vehicles exploding when they crash. #default false
+	enable_crash_explosion = false
+	#Enable blocks being destroyed by the explosion. #default true
+	crash_block_explosion = true
+	#Explosion radius for crashing vehicles. #default 2.0
+	crash_explosion_radius = 2.0
+	#Crash explosions generate fire. #default true
+	crash_explosion_fire = true
+

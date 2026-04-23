@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "basic_tinkering"
+  ],
+  "tasks": {
+    "hammer2": {
+      "title": "Upgrade your hammer to Stone",
+      "advancements": [
+        "tetra:upgrades/hammer_2"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Use stone to upgrade your hammer to stone level"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          90,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tetra:modular_double",
+        "count": 1,
+        "nbt": {
+          "id": "7eaeff92-7c7d-404f-a711-112852f3e4c0",
+          "double/head_left": "double/basic_hammer_left",
+          "double/handle": "double/basic_handle",
+          "double/basic_hammer_left_material": "basic_hammer/stone",
+          "Damage": 0,
+          "double/basic_handle_material": "basic_handle/stick",
+          "double/basic_hammer_right_material": "basic_hammer/stone",
+          "double/head_right": "double/basic_hammer_right"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hammer II"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
