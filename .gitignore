@@ -1,6 +1,5 @@
 # Ignore runtime stuff
 .mixin.out/
-.physics_mod_cache/
 .vscode/
 crash-reports/
 logs/
