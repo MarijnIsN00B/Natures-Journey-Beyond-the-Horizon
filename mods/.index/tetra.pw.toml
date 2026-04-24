@@ -1,19 +1,19 @@
-filename = 'tetra-1.20.1-6.14.0.jar'
-name = 'tetra'
+filename = 'tetra-1.20.1-6.12.0.jar'
+name = 'Tetra'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'tetra-1.20.1-6.14.0.jar'
+x-prismlauncher-version-number = 'tetra-1.20.1-6.12.0.jar'
 
 [download]
-hash = '6ddbbbebb9f852f9f1110f73f675eb7085b09ecb'
+hash = '8d5c14f6f5e505fa3b7b80b97ee1fa505523d58b'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7913036
+file-id = 7636468
 project-id = 289712
 
 [[x-prismlauncher-dependencies]]

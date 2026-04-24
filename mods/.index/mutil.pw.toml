@@ -1,18 +1,18 @@
-filename = 'mutil-1.20.1-6.3.0.jar'
+filename = 'mutil-1.20.1-6.2.0.jar'
 name = 'mutil'
 side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'mutil-1.20.1-6.3.0.jar'
+x-prismlauncher-version-number = 'mutil-1.20.1-6.2.0.jar'
 
 [download]
-hash = '29a233bbe5b156f16bfe67e402681a490c843062'
+hash = 'a5ad577ce2c398b2654880b6dc68869d277dd653'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 7772906
+file-id = 6418901
 project-id = 351914
