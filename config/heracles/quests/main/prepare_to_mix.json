@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "the_andesite_age"
+  ],
+  "tasks": {
+    "Mixing Items": {
+      "type": "heracles:item",
+      "item": "create:mechanical_mixer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "Basin": {
+      "type": "heracles:item",
+      "item": "create:basin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "Cage": {
+      "type": "heracles:item",
+      "item": "create:empty_blaze_burner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "Lava": {
+      "item": {
+        "id": "minecraft:lava_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "10 levels": {
+      "xptype": "LEVEL",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a Mixer, Blaze Burner and Basin"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          140,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_mixer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Prepare to Mix"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -12,14 +12,24 @@
     }
   },
   "rewards": {
-    "wool": {
-      "title": "Get Some Wool!",
+    "gearshift": {
       "item": {
-        "id": "minecraft:shears",
-        "count": 1,
-        "nbt": {
-          "Damage": 0
-        }
+        "id": "create:gearshift",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "gear": {
+      "item": {
+        "id": "create:gearbox",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "shaft": {
+      "item": {
+        "id": "create:shaft",
+        "count": 8
       },
       "type": "heracles:item"
     }
@@ -34,7 +44,7 @@
     "groups": {
       "Main": {
         "position": [
-          20,
+          21,
           50
         ]
       }

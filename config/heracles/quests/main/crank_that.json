@@ -2,19 +2,33 @@
   "dependencies": [
     "sturdier_rocks"
   ],
-  "tasks": {},
+  "tasks": {
+    "handcrank": {
+      "type": "heracles:item",
+      "item": "create:hand_crank",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft a Hand Crank"
+    },
+    "use hand crank": {
+      "block": "create:hand_crank",
+      "state": {},
+      "title": "Use a Hand Crank",
+      "type": "heracles:block_interaction"
+    }
+  },
   "rewards": {
     "steak": {
       "item": {
         "id": "farmersdelight:steak_and_potatoes",
-        "count": 1
+        "count": 4
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Create and use a Hand Crank"
     },
     "description": [
       ""

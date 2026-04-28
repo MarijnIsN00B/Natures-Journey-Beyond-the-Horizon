@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "iron_age"
+  ],
+  "tasks": {
+    "Diamonds": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Find and mine a Diamond"
+    }
+  },
+  "rewards": {
+    "Geode": {
+      "item": {
+        "id": "tetra:geode",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find and mine Diamonds"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          140,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Precious Gems"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

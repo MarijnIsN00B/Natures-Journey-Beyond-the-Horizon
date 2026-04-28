@@ -45,14 +45,14 @@
         "id": "tetra:modular_double",
         "count": 1,
         "nbt": {
-          "Damage": 0,
-          "double/head_left": "double/basic_hammer_left",
+          "double/basic_hammer_left_material": "basic_hammer/netherite",
+          "double/handle": "double/basic_handle",
           "id": "4df6703c-be0c-4ba7-a0d6-f6450e030966",
           "double/head_right": "double/basic_hammer_right",
-          "double/basic_hammer_left_material": "basic_hammer/netherite",
           "double/basic_handle_material": "basic_handle/forged_beam",
-          "double/basic_hammer_right_material": "basic_hammer/netherite",
-          "double/handle": "double/basic_handle"
+          "double/head_left": "double/basic_hammer_left",
+          "Damage": 0,
+          "double/basic_hammer_right_material": "basic_hammer/netherite"
         }
       },
       "type": "heracles:item"

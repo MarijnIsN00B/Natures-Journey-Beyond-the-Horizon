@@ -15,28 +15,35 @@
     "Andesite Alloy": {
       "item": {
         "id": "create:shaft",
-        "count": 8
+        "count": 16
       },
       "type": "heracles:item"
     },
     "cog": {
       "item": {
         "id": "create:cogwheel",
-        "count": 8
+        "count": 4
       },
       "type": "heracles:item"
     },
     "big_cog": {
       "item": {
         "id": "create:large_cogwheel",
-        "count": 8
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "goggles": {
+      "item": {
+        "id": "create:goggles",
+        "count": 1
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Obtain some Andesite Alloy"
     },
     "description": [
       "Use Andesite and Iron Nuggets to make Andesite Alloy.",

@@ -20,8 +20,8 @@
     "ancient_atlas": {
       "title": "You'll need this on your travels",
       "item": {
-        "id": "antiqueatlas:empty_antique_atlas",
-        "count": 1
+        "id": "minecraft:air",
+        "count": 0
       },
       "type": "heracles:item"
     }
@@ -37,7 +37,7 @@
       "Exploration": {
         "position": [
           0,
-          -60
+          0
         ]
       }
     },

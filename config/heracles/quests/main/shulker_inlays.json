@@ -33,10 +33,10 @@
         "count": 1,
         "nbt": {
           "toolbelt/slot1": "toolbelt/strap_slot1",
-          "toolbelt/belt_material": "belt/inlaid",
-          "toolbelt/belt": "toolbelt/belt",
+          "id": "42e6f11c-2207-4bc6-b670-72d90cfc2762",
           "toolbelt/strap_slot1_material": "strap1/leather",
-          "id": "42e6f11c-2207-4bc6-b670-72d90cfc2762"
+          "toolbelt/belt_material": "belt/inlaid",
+          "toolbelt/belt": "toolbelt/belt"
         }
       },
       "type": "heracles:item"

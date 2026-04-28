@@ -43,14 +43,14 @@
         "id": "tetra:modular_double",
         "count": 1,
         "nbt": {
-          "Damage": 0,
-          "id": "54d0e6f8-65ec-4d08-86f3-fe8219fd4bb9",
-          "double/basic_hammer_right_material": "basic_hammer/obsidian",
           "double/basic_hammer_left_material": "basic_hammer/obsidian",
-          "double/head_left": "double/basic_hammer_left",
-          "double/head_right": "double/basic_hammer_right",
           "double/handle": "double/basic_handle",
-          "double/basic_handle_material": "basic_handle/iron"
+          "id": "54d0e6f8-65ec-4d08-86f3-fe8219fd4bb9",
+          "double/head_right": "double/basic_hammer_right",
+          "double/basic_handle_material": "basic_handle/iron",
+          "double/head_left": "double/basic_hammer_left",
+          "Damage": 0,
+          "double/basic_hammer_right_material": "basic_hammer/obsidian"
         }
       },
       "type": "heracles:item"

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "brass_casing"
+  ],
+  "tasks": {
+    "speed controller": {
+      "type": "heracles:item",
+      "item": "create:rotation_speed_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "create:rotation_speed_controller",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "tank": {
+      "item": {
+        "id": "create:fluid_tank",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Make a Rotational Speed Controller"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          260,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:rotation_speed_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "I Am Speed."
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

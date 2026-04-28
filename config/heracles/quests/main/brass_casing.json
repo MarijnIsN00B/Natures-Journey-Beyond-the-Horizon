@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "brass"
+  ],
+  "tasks": {
+    "Brass Casing": {
+      "type": "heracles:item",
+      "item": "create:brass_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "Iron Plate": {
+      "item": {
+        "id": "create:iron_sheet",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Apply Brass to Stripped Wood"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          220,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Brass Age"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

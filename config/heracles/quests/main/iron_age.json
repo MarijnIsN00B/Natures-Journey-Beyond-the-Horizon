@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "welcome"
+  ],
+  "tasks": {
+    "Diamonds": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Find and smelt Iron Ore"
+    }
+  },
+  "rewards": {
+    "Blast Furnace": {
+      "item": {
+        "id": "minecraft:blast_furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "Coal": {
+      "item": {
+        "id": "minecraft:coal",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Find and smelt some Iron"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          100,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron Age!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": true,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

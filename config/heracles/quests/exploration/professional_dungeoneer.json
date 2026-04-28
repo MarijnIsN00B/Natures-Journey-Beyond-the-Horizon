@@ -2,6 +2,7 @@
   "dependencies": [
     "a_bone_to_pick",
     "cobweb_entanglement",
+    "a_special_addition",
     "when_in_rome",
     "quite_the_renovation"
   ],
@@ -15,8 +16,8 @@
     "groups": {
       "Exploration": {
         "position": [
-          -300,
-          60
+          0,
+          100
         ]
       }
     },
@@ -30,7 +31,7 @@
       },
       "type": "heracles:item"
     },
-    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
     "title": {
       "translate": "Professional Dungeoneer"
     }
@@ -40,7 +41,7 @@
     "repeatable": false,
     "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED",
+    "hidden": "COMPLETED",
     "unlockNotification": false
   }
 }

@@ -12,9 +12,16 @@
     }
   },
   "rewards": {
-    "thingh": {
+    "speedometer": {
       "item": {
-        "id": "create:rotation_speed_controller",
+        "id": "create:speedometer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "stressometer": {
+      "item": {
+        "id": "create:stressometer",
         "count": 1
       },
       "type": "heracles:item"

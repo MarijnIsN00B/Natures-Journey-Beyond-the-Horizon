@@ -40,14 +40,14 @@
         "id": "tetra:modular_double",
         "count": 1,
         "nbt": {
-          "double/handle": "double/basic_handle",
-          "double/head_right": "double/basic_hammer_right",
-          "double/basic_hammer_right_material": "basic_hammer/blackstone",
           "double/basic_hammer_left_material": "basic_hammer/blackstone",
+          "double/handle": "double/basic_handle",
           "id": "9b3c91b0-9f10-446f-8538-fdb94f98045a",
-          "Damage": 0,
+          "double/head_right": "double/basic_hammer_right",
+          "double/basic_handle_material": "basic_handle/spruce",
           "double/head_left": "double/basic_hammer_left",
-          "double/basic_handle_material": "basic_handle/spruce"
+          "Damage": 0,
+          "double/basic_hammer_right_material": "basic_hammer/blackstone"
         }
       },
       "type": "heracles:item"

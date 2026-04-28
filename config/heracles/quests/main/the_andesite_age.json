@@ -7,21 +7,21 @@
     "Iron": {
       "item": {
         "id": "minecraft:iron_ingot",
-        "count": 8
+        "count": 16
       },
       "type": "heracles:item"
     },
     "andesitecasings": {
       "item": {
         "id": "create:andesite_casing",
-        "count": 16
+        "count": 8
       },
       "type": "heracles:item"
     }
   },
   "display": {
     "subtitle": {
-      "text": ""
+      "translate": "Apply Andesite Alloy to Stripped Wood"
     },
     "description": [
       ""
@@ -29,8 +29,8 @@
     "groups": {
       "Main": {
         "position": [
-          60,
-          80
+          100,
+          50
         ]
       }
     },

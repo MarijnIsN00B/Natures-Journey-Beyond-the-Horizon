@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "ohh_burn"
+  ],
+  "tasks": {
+    "Brass": {
+      "type": "heracles:item",
+      "item": "create:brass_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "Vault": {
+      "item": {
+        "id": "create:item_vault",
+        "count": 9
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Mix Tin and Copper to make Brass"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          180,
+          90
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:brass_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alloyoop!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

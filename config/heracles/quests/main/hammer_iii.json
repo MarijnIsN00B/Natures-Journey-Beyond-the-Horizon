@@ -1,53 +1,106 @@
 {
   "dependencies": [
-    "hammer2"
+    "hammer_ii"
   ],
   "tasks": {
-    "iron_hammer": {
-      "type": "heracles:item",
-      "item": "tetra:modular_double",
-      "nbt": {
-        "double/basic_hammer_right_material": "basic_hammer/iron",
-        "double/handle": "double/basic_handle",
-        "double/head_right": "double/basic_hammer_right",
-        "double/basic_hammer_left_material": "basic_hammer/iron",
-        "double/head_left": "double/basic_hammer_left",
-        "Damage": 0,
-        "double/basic_handle_material": "basic_handle/spruce",
-        "id": "32a01418-2180-42b5-bf46-9339762ee120"
-      },
-      "amount": 1,
-      "collection": "AUTOMATIC"
+    "Iron Hammer": {
+      "title": "Upgrade your hammer to Iron",
+      "advancements": [
+        "tetra:upgrades/hammer_3"
+      ],
+      "type": "heracles:advancement"
     }
   },
   "rewards": {
-    "scematic": {
-      "item": {
-        "id": "tetra:scroll_rolled",
-        "count": 1,
-        "nbt": {
-          "BlockEntityTag": {
-            "data": [
-              {
-                "intricate": 0,
-                "key": "axe_efficiency",
-                "material": 0,
-                "glyphs": [
-                  0,
-                  1,
-                  3,
-                  3
-                ],
-                "effects": [
-                  "tetra:axe_efficiency"
-                ],
-                "ribbon": "66ff66"
+    "epic choice reward": {
+      "amount": 1,
+      "rewards": {
+        "one": {
+          "item": {
+            "id": "tetra:scroll_rolled",
+            "count": 1,
+            "nbt": {
+              "BlockEntityTag": {
+                "data": [
+                  {
+                    "key": "sword/sturdy_guard",
+                    "ribbon": "bcb8b5",
+                    "schematics": [
+                      "tetra:sword/sturdy_guard"
+                    ],
+                    "glyphs": [
+                      3,
+                      2,
+                      2,
+                      1
+                    ],
+                    "intricate": 0,
+                    "material": 1
+                  }
+                ]
               }
-            ]
-          }
+            }
+          },
+          "type": "heracles:item"
+        },
+        "two": {
+          "item": {
+            "id": "tetra:scroll_rolled",
+            "count": 1,
+            "nbt": {
+              "BlockEntityTag": {
+                "data": [
+                  {
+                    "key": "sword/throwing_knife",
+                    "ribbon": "b8ced9",
+                    "schematics": [
+                      "tetra:sword/throwing_knife"
+                    ],
+                    "glyphs": [
+                      4,
+                      1,
+                      0,
+                      5
+                    ],
+                    "intricate": 0,
+                    "material": 1
+                  }
+                ]
+              }
+            }
+          },
+          "type": "heracles:item"
+        },
+        "three": {
+          "item": {
+            "id": "tetra:scroll_rolled",
+            "count": 1,
+            "nbt": {
+              "BlockEntityTag": {
+                "data": [
+                  {
+                    "key": "sword/howling",
+                    "ribbon": "faf396",
+                    "schematics": [
+                      "tetra:sword/howling"
+                    ],
+                    "glyphs": [
+                      8,
+                      9,
+                      10,
+                      5
+                    ],
+                    "intricate": 0,
+                    "material": 1
+                  }
+                ]
+              }
+            }
+          },
+          "type": "heracles:item"
         }
       },
-      "type": "heracles:item"
+      "type": "heracles:selectable"
     }
   },
   "display": {
@@ -70,14 +123,14 @@
         "id": "tetra:modular_double",
         "count": 1,
         "nbt": {
-          "id": "32a01418-2180-42b5-bf46-9339762ee120",
-          "Damage": 0,
-          "double/head_left": "double/basic_hammer_left",
-          "double/basic_handle_material": "basic_handle/spruce",
-          "double/basic_hammer_right_material": "basic_hammer/iron",
-          "double/handle": "double/basic_handle",
           "double/basic_hammer_left_material": "basic_hammer/iron",
-          "double/head_right": "double/basic_hammer_right"
+          "double/handle": "double/basic_handle",
+          "id": "32a01418-2180-42b5-bf46-9339762ee120",
+          "double/head_right": "double/basic_hammer_right",
+          "double/basic_handle_material": "basic_handle/spruce",
+          "double/head_left": "double/basic_hammer_left",
+          "Damage": 0,
+          "double/basic_hammer_right_material": "basic_hammer/iron"
         }
       },
       "type": "heracles:item"

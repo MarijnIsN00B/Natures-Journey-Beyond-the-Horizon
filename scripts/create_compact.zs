@@ -12,6 +12,17 @@ craftingTable.removeByName("immersive_aircraft:industrial_gears");
 craftingTable.removeByName("man_of_many_planes:scarlet_biplane");
 craftingTable.removeByName("man_of_many_planes:economy_plane");
 craftingTable.removeByName("immersive_aircraft:warship");
+<recipetype:create:crushing>.removeByName("createrecycle:oak_log_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:spruce_log_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:birch_log_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:jungle_log_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:acacia_log_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:dark_oak_log_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:mangrove_log_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:cherry_log_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:crimson_stem_recycle");
+<recipetype:create:crushing>.removeByName("createrecycle:warped_stem_recycle");
+
 
 
 craftingTable.addShaped("hull_create_compact", <item:immersive_aircraft:hull>, [

@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "prepare_to_mix"
+  ],
+  "tasks": {
+    "Blaze Burner": {
+      "type": "heracles:item",
+      "item": "create:blaze_burner",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Craft a Blaze Burner and use it to capture a Blaze"
+    }
+  },
+  "rewards": {
+    "coal": {
+      "item": {
+        "id": "minecraft:coal_block",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Capture a Blaze using a Blaze Burner"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          180,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:blaze_burner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ohh Burn!"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

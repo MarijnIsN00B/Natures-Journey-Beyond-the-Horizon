@@ -50,14 +50,14 @@
         "id": "tetra:modular_double",
         "count": 1,
         "nbt": {
-          "double/head_right": "double/basic_hammer_right",
           "double/basic_hammer_left_material": "basic_hammer/oak",
-          "double/basic_hammer_right_material": "basic_hammer/oak",
-          "double/basic_handle_material": "basic_handle/stick",
-          "Damage": 0,
-          "double/head_left": "double/basic_hammer_left",
           "double/handle": "double/basic_handle",
-          "id": "778eab0c-34ff-468e-886d-6b8667df58f2"
+          "id": "778eab0c-34ff-468e-886d-6b8667df58f2",
+          "double/head_right": "double/basic_hammer_right",
+          "double/basic_handle_material": "basic_handle/stick",
+          "double/head_left": "double/basic_hammer_left",
+          "Damage": 0,
+          "double/basic_hammer_right_material": "basic_hammer/oak"
         }
       },
       "type": "heracles:item"
