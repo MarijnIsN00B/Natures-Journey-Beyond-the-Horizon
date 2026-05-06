@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "mechanical_press"
+  ],
+  "tasks": {
+    "quadcopter": {
+      "type": "heracles:item",
+      "item": "immersive_aircraft:quadrocopter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "enhanced_propellor": {
+      "item": {
+        "id": "immersive_aircraft:enhanced_propeller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          75,
+          120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "immersive_aircraft:quadrocopter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copter Copter Copter Copter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

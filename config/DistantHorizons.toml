@@ -342,7 +342,7 @@ _version = 4
 				# Note:
 				# If you see gaps, or holes you may have to change
 				# worldCompression to [MERGE_SAME_BLOCKS] and re-generate the LODs.
-				ignoredRenderBlockCsv = "minecraft:barrier,minecraft:structure_void,minecraft:light,minecraft:tripwire,minecraft:brown_mushroom"
+				ignoredRenderBlockCsv = "minecraft:barrier,minecraft:structure_void,minecraft:light,minecraft:tripwire,minecraft:brown_mushroom,cosmos:height_limiter,minecraft:grass,minecraft:tall_grass,minecraft:fern,twigs:pebble,twigs:twig,twigs:bronzed_seashell,twigs:tangerine_seashell,twigs:opaline_seashell,twigs:roseate_seashell"
 				#
 				# A comma separated list of block resource locations that shouldn't be rendered 
 				# if they are in a 0 sky light underground area. 
@@ -552,6 +552,15 @@ _version = 4
 				listTest = ["option 1", "option 2", "option 3"]
 				mapTest = "{}"
 				linkableTest = 420
+
+			[client.advanced.debugging.positionFinderDebugging]
+				positionFinderEnable = false
+				positionFinderDetailLevel = 6
+				positionFinderXPos = 0
+				positionFinderZPos = 0
+				positionFinderMinBlockY = -64
+				positionFinderMaxBlockY = 125
+				positionFinderMarginPercent = "0.0"
 
 	[common.worldGenerator]
 		#

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "airship"
+  ],
+  "tasks": {
+    "cargo_airship": {
+      "type": "heracles:item",
+      "item": "immersive_aircraft:cargo_airship",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "boiler": {
+      "item": {
+        "id": "immersive_aircraft:steel_boiler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "coal": {
+      "item": {
+        "id": "minecraft:coal",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          125,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "immersive_aircraft:cargo_airship",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "cargo_airship"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -2,7 +2,14 @@
   "dependencies": [
     "honed_blade"
   ],
-  "tasks": {},
+  "tasks": {
+    "tetra:upgrades/sword_improvement": {
+      "advancements": [
+        "tetra:upgrades/sword_improvement_hone"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
   "rewards": {},
   "display": {
     "subtitle": {
@@ -24,17 +31,17 @@
         "id": "tetra:modular_sword",
         "count": 1,
         "nbt": {
+          "honing_progress": 240,
+          "sword/binding_material": "sword_binding/string",
+          "sword/blade": "sword/basic_blade",
+          "HideFlags": 1,
+          "id": "e1dbf07f-3e6a-416f-b872-e4ec1814006e",
           "sword/basic_hilt_material": "basic_hilt/stick",
           "sword/hilt": "sword/basic_hilt",
-          "Damage": 0,
-          "weapon_attributes": "{\"parent\":\"bettercombat:sword\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"sword\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.2,\"randomness\":0.1}}]}}",
-          "id": "e1dbf07f-3e6a-416f-b872-e4ec1814006e",
-          "HideFlags": 1,
-          "sword/blade": "sword/basic_blade",
-          "sword/binding_material": "sword_binding/string",
+          "sword/guard": "sword/binding",
           "sword/basic_blade_material": "basic_blade/iron",
-          "honing_progress": 240,
-          "sword/guard": "sword/binding"
+          "weapon_attributes": "{\"parent\":\"bettercombat:sword\",\"attributes\":{\"attack_range\":3.0,\"two_handed\":false,\"category\":\"sword\",\"attacks\":[{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_right\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"HORIZONTAL_PLANE\",\"damage_multiplier\":1.0,\"angle\":120.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_slash_horizontal_left\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}},{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:one_handed_stab\",\"swing_sound\":{\"id\":\"bettercombat:sword_slash\",\"volume\":1.0,\"pitch\":1.2,\"randomness\":0.1}}]}}",
+          "Damage": 0
         }
       },
       "type": "heracles:item"

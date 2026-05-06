@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "brass_casing"
+  ],
+  "tasks": {
+    "mechanical_crafter": {
+      "type": "heracles:item",
+      "item": "create:mechanical_crafter",
+      "amount": 21,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          220,
+          127
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:mechanical_crafter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "mechanical_crafter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

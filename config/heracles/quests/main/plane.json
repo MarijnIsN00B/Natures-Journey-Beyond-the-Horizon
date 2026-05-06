@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "mechanical_crafter"
+  ],
+  "tasks": {
+    "plane": {
+      "type": "heracles:item",
+      "item": "man_of_many_planes:scarlet_biplane",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          190,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "man_of_many_planes:scarlet_biplane",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "plane"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
