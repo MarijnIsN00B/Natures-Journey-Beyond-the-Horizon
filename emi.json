@@ -1,41 +1,31 @@
 {
   "favorites": [
     {
-      "stack": "item:create:mechanical_bearing"
+      "stack": "item:vsch:thruster_block"
     },
     {
-      "stack": "item:create:linear_chassis"
-    },
-    {
-      "stack": "item:create:portable_storage_interface",
-      "recipe": "create:crafting/kinetics/portable_storage_interface"
-    },
-    {
-      "stack": "item:immersive_aircraft:engine"
-    },
-    {
-      "stack": "item:immersive_aircraft:steel_boiler"
-    },
-    {
-      "stack": "item:immersive_aircraft:gyroscope"
-    },
-    {
-      "stack": "item:immersive_aircraft:bomb_bay"
-    },
-    {
-      "stack": "item:farmersdelight:organic_compost",
-      "recipe": "farmersdelight:organic_compost_from_rotten_flesh"
-    },
-    {
-      "stack": "item:create:mechanical_harvester",
-      "recipe": "create:crafting/kinetics/mechanical_harvester"
+      "stack": "item:vsch:air_thruster_block"
     },
     {
       "stack": "item:vsch:powerful_thruster_block"
+    },
+    {
+      "stack": "item:vsch:drag_inducer_block"
+    },
+    {
+      "stack": "item:vsch:gyro"
+    },
+    {
+      "stack": "item:vsch:rocket_assembler"
+    },
+    {
+      "stack": "item:vsch:magnet_boot{Damage:0}"
+    },
+    {
+      "stack": "item:vsch:wrench"
     }
   ],
   "lookup_history": [
-    "item:tetranichematerials:darkbottom_armor_helmet{Damage:0}",
     "item:cosmos:steel_block",
     "item:cosmos:steel_plate",
     "item:alexscaves:raw_scarlet_neodymium",
@@ -292,9 +282,6 @@
     "item:farmersdelight:smoked_ham",
     "item:minecraft:spruce_pressure_plate",
     "item:nethersdelight:soul_compost",
-    "item:tetranichematerials:steel_powder",
-    "item:tetranichematerials:steel_ingot",
-    "item:tetranichematerials:burning_steel_ingot",
     {
       "type": "item",
       "id": "regions_unexplored:bamboo_log",
@@ -386,8 +373,6 @@
     "item:alexscaves:uranium_rod",
     "item:alexscaves:nuclear_bomb",
     "item:alexscaves:fissile_core",
-    "item:tetranichematerials:pulverized_coal",
-    "item:tetranichematerials:grave_steel_ingot",
     "item:tetra:forged_workbench",
     "item:tetra:core_extractor",
     "item:tetra:forged_pillar",
@@ -423,8 +408,6 @@
       "id": "regions_unexplored:daisy",
       "amount": 13
     },
-    "item:tetranichematerials:burning_steel_block",
-    "item:tetranichematerials:burning_steel_armor_feet{Damage:0}",
     "item:natures_spirit:gardenia",
     {
       "type": "item",
@@ -520,7 +503,6 @@
       "amount": 2
     },
     "item:minecraft:water_bucket",
-    "item:tetranichematerials:steel_ingot",
     "item:minecraft:gunpowder",
     "item:minecraft:dropper",
     "item:minecraft:chicken",
@@ -733,11 +715,6 @@
     "item:minecraft:dried_kelp",
     "item:minecraft:charcoal",
     "item:minecraft:coal",
-    "item:tetranichematerials:lockwood_powder",
-    "item:tetranichematerials:lockwood_ingot",
-    "item:tetranichematerials:lockwood_armor_helmet{Damage:0}",
-    "item:tetranichematerials:bronnum_armor_helmet{Damage:0}",
-    "item:tetranichematerials:dooferfish_armor_helmet{Damage:0}",
     "item:minecraft:spruce_fence_gate",
     "item:minecraft:tipped_arrow{Potion:\"minecraft:long_water_breathing\"}",
     "item:minecraft:birch_door"

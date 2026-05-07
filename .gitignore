@@ -14,7 +14,10 @@ schematics/
 screenshots/
 shaderpacks/
 simplebackups/
+emi.json
+fabricloader.log
 options.txt
+README.md
 servers.dat
 servers.dat_old
 supportercache.json
