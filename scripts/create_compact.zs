@@ -1,5 +1,4 @@
-//  Makes Immersive Aircraft planes require Create ingredients
-
+//  Disable Immersive Aircraft's original recipes for planes and parts
 craftingTable.removeByName("immersive_aircraft:hull");
 craftingTable.removeByName("immersive_aircraft:boiler");
 craftingTable.removeByName("immersive_aircraft:nether_engine");
@@ -12,6 +11,8 @@ craftingTable.removeByName("immersive_aircraft:industrial_gears");
 craftingTable.removeByName("man_of_many_planes:scarlet_biplane");
 craftingTable.removeByName("man_of_many_planes:economy_plane");
 craftingTable.removeByName("immersive_aircraft:warship");
+
+// Remove broken crushing recipes for logs from Create Recycle
 <recipetype:create:crushing>.removeByName("createrecycle:oak_log_recycle");
 <recipetype:create:crushing>.removeByName("createrecycle:spruce_log_recycle");
 <recipetype:create:crushing>.removeByName("createrecycle:birch_log_recycle");
@@ -24,7 +25,7 @@ craftingTable.removeByName("immersive_aircraft:warship");
 <recipetype:create:crushing>.removeByName("createrecycle:warped_stem_recycle");
 
 
-
+//  Makes Immersive Aircraft planes require Create ingredients
 craftingTable.addShaped("hull_create_compact", <item:immersive_aircraft:hull>, [
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>], 
     [<item:create:iron_sheet>, <item:create:iron_sheet>, <item:create:iron_sheet>], 
@@ -78,6 +79,8 @@ craftingTable.addShaped("industrial_gears_create_compact", <item:immersive_aircr
     [<item:create:iron_sheet>, <item:minecraft:lever>, <item:create:copper_sheet>], 
     [<item:create:iron_sheet>, <item:create:iron_sheet>, <item:minecraft:air>]]);
 
+
+// Add recipes for planes using the mechanical crafter
 <recipetype:create:mechanical_crafting>.addRecipe("create_scarlet_biplane", (<item:man_of_many_planes:scarlet_biplane>), [
     [<item:minecraft:air>, <item:minecraft:air>, <item:immersive_aircraft:propeller>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:immersive_aircraft:hull>, <item:immersive_aircraft:hull>, <item:immersive_aircraft:engine>, <item:immersive_aircraft:hull>, <item:immersive_aircraft:hull>],
@@ -104,7 +107,6 @@ craftingTable.addShaped("industrial_gears_create_compact", <item:immersive_aircr
 
 
 //  Makes Nature's Spirit ores crushable in a Create crusher
-
 import mods.createtweaker.CrushingRecipe;
 
 <recipetype:create:crushing>.addRecipe("chert_coal_ore_crushing", [<item:minecraft:coal> % 100.0, <item:minecraft:coal> % 75.0, <item:create:experience_nugget> % 75.0, <item:natures_spirit:chert> % 12.5], <item:natures_spirit:chert_coal_ore>, 150);

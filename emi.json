@@ -26,12 +26,13 @@
     }
   ],
   "lookup_history": [
+    "item:vsch:magnet_boot{Damage:0}",
+    "item:alexscaves:azure_magnet",
+    "item:alexscaves:scarlet_magnet",
     "item:cosmos:steel_block",
     "item:cosmos:steel_plate",
     "item:alexscaves:raw_scarlet_neodymium",
     "item:alexscaves:scarlet_neodymium_ingot",
-    "item:alexscaves:scarlet_magnet",
-    "item:vsch:magnet_boot{Damage:0}",
     "item:densetrees:dense_oak_log",
     {
       "type": "item",
