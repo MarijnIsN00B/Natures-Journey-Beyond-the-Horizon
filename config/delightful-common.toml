@@ -123,14 +123,6 @@
 	smore = true
 	venison_chops = true
 	wild_salmonberries = true
-	#Allow cooking milk from nuts
-	nut_milk = true
-	#Allow cooking honey from honey and clovers
-	clover_honey = true
-	#Give items that are sliced off of blocks directly to player's inventory instead of dropping
-	give_sliced_directly = false
-	#Allow sliced melons to be juiced in-world (right click)
-	melon_juicing = true
 	cantaloupe_bread = true
 	cantaloupe_popsicle = true
 	cantaloupe_seeds = true
@@ -200,4 +192,16 @@
 	passion_fruit_tart_slice = true
 	source_berry_pie_slice = true
 	mutton_pie_slice = true
+	#Use a mixin to remove food properties from pie items (tag #farmersdelight:pies)?
+	pie_edible_mixin = true
+
+[Behavior]
+	#Allow cooking milk from nuts
+	nut_milk = true
+	#Allow cooking honey from honey and clovers
+	clover_honey = false
+	#Give items that are sliced off of blocks directly to player's inventory instead of dropping
+	give_sliced_directly = false
+	#Allow sliced melons to be juiced in-world (right click)
+	melon_juicing = true
 

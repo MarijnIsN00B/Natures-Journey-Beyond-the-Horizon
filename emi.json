@@ -26,6 +26,42 @@
     }
   ],
   "lookup_history": [
+    "item:immersive_aircraft:biplane",
+    {
+      "type": "item",
+      "id": "farmersdelight:cooked_salmon_slice",
+      "amount": 8
+    },
+    {
+      "type": "item",
+      "id": "farmersdelight:cooked_cod_slice",
+      "amount": 6
+    },
+    {
+      "type": "item",
+      "id": "minecraft:cooked_salmon",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "minecraft:feather",
+      "amount": 9
+    },
+    {
+      "type": "item",
+      "id": "minecraft:stick",
+      "amount": 8
+    },
+    "item:hpm:small_mast",
+    "item:hpm:smallhull",
+    "item:hpm:swashbuckleritem",
+    "item:comforts:sleeping_bag_white",
+    "item:biomesoplenty:toadstool",
+    "item:tetra:modular_double{Damage:0,\"double/basic_hammer_left_material\":\"basic_hammer/iron\",\"double/basic_hammer_right_material\":\"basic_hammer/iron\",\"double/basic_handle_material\":\"basic_handle/spruce\",\"double/handle\":\"double/basic_handle\",\"double/head_left\":\"double/basic_hammer_left\",\"double/head_right\":\"double/basic_hammer_right\",id:\"b8f71b9f-9073-4f16-8908-3269c2784533\"}",
+    "item:minecraft:rose_bush",
+    "item:natures_spirit:gardenia",
+    "item:delightful:cantaloupe",
+    "item:delightful:cantaloupe_slice",
     "item:vsch:magnet_boot{Damage:0}",
     "item:alexscaves:azure_magnet",
     "item:alexscaves:scarlet_magnet",
@@ -82,7 +118,6 @@
     "item:minecraft:crying_obsidian",
     "item:create:mechanical_mixer",
     "item:create:blaze_burner",
-    "item:immersive_aircraft:biplane",
     "item:immersive_aircraft:gyrodyne",
     "item:art_of_forging:demonic_blade",
     "item:art_of_forging:ancient_blade",
@@ -112,18 +147,8 @@
     "item:art_of_forging:forged_steel_ingot",
     "item:farmersrespite:rose_hip_pie",
     "item:farmersrespite:rose_hip_pie_slice",
-    {
-      "type": "item",
-      "id": "biomesoplenty:toadstool",
-      "amount": 2
-    },
     "item:minecraft:iron_pickaxe{Damage:0}",
     "item:create:hand_crank",
-    {
-      "type": "item",
-      "id": "farmersdelight:cooked_cod_slice",
-      "amount": 2
-    },
     {
       "type": "item",
       "id": "minecraft:cooked_cod",
@@ -185,12 +210,10 @@
     "item:twigs:silt",
     "item:minecraft:gravel",
     "item:minecraft:light_gray_dye",
-    "item:tetra:modular_double{Damage:0,\"double/basic_hammer_left_material\":\"basic_hammer/oak\",\"double/basic_hammer_right_material\":\"basic_hammer/oak\",\"double/basic_handle_material\":\"basic_handle/stick\",\"double/handle\":\"double/basic_handle\",\"double/head_left\":\"double/basic_hammer_left\",\"double/head_right\":\"double/basic_hammer_right\",id:\"499dc006-7121-4c95-8ec5-e8ea0a70a500\",weapon_attributes:\u0027{\"parent\":\"bettercombat:hammer\",\"attributes\":{\"attack_range\":3.0,\"pose\":\"bettercombat:pose_two_handed_heavy\",\"two_handed\":true,\"category\":\"hammer\",\"attacks\":[{\"hitbox\":\"FORWARD_BOX\",\"damage_multiplier\":1.0,\"angle\":0.0,\"upswing\":0.5,\"animation\":\"bettercombat:two_handed_slam\",\"swing_sound\":{\"id\":\"bettercombat:hammer_slam\",\"volume\":1.0,\"pitch\":1.0,\"randomness\":0.1}}]}}\u0027}",
     "item:minecraft:chest",
     "#item:forge:chests/wooden",
     "item:minecraft:oak_planks",
     "item:minecraft:oak_fence",
-    "item:minecraft:stick",
     "item:comforts:hammock_white",
     "item:supplementaries:rope",
     "item:farmersdelight:rope",
@@ -409,7 +432,6 @@
       "id": "regions_unexplored:daisy",
       "amount": 13
     },
-    "item:natures_spirit:gardenia",
     {
       "type": "item",
       "id": "natures_spirit:white_wisteria_vines",
@@ -555,11 +577,6 @@
       "type": "item",
       "id": "minecraft:wheat",
       "amount": 5
-    },
-    {
-      "type": "item",
-      "id": "minecraft:feather",
-      "amount": 6
     },
     "item:minecraft:seagrass",
     "item:minecraft:furnace",
@@ -721,6 +738,7 @@
     "item:minecraft:birch_door"
   ],
   "craft_history": [
+    "hpm:mastrecipe",
     "densetrees:planks_from_dense_oak_log",
     "minecraft:campfire",
     "minecraft:oak_slab",
