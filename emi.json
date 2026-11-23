@@ -1,31 +1,8 @@
 {
-  "favorites": [
-    {
-      "stack": "item:vsch:thruster_block"
-    },
-    {
-      "stack": "item:vsch:air_thruster_block"
-    },
-    {
-      "stack": "item:vsch:powerful_thruster_block"
-    },
-    {
-      "stack": "item:vsch:drag_inducer_block"
-    },
-    {
-      "stack": "item:vsch:gyro"
-    },
-    {
-      "stack": "item:vsch:rocket_assembler"
-    },
-    {
-      "stack": "item:vsch:magnet_boot{Damage:0}"
-    },
-    {
-      "stack": "item:vsch:wrench"
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "item:tetra:metal_scrap",
+    "item:tetra:holo{\"holo/core\":\"holo/core\",\"holo/core_material\":\"core/dim\",\"holo/frame\":\"holo/frame\",\"holo/frame_material\":\"frame/ancient\",\"holo/repo\":\"holo/repo\",\"holo/repo_material\":\"repo/default\",\"holo/scanner\":\"holo/scanner\",\"holo/scanner_material\":\"scanner/default\",id:\"9503de92-046c-4d61-8afe-8c0d71c6afae\"}",
     "item:immersive_aircraft:biplane",
     {
       "type": "item",
@@ -62,7 +39,6 @@
     "item:natures_spirit:gardenia",
     "item:delightful:cantaloupe",
     "item:delightful:cantaloupe_slice",
-    "item:vsch:magnet_boot{Damage:0}",
     "item:alexscaves:azure_magnet",
     "item:alexscaves:scarlet_magnet",
     "item:cosmos:steel_block",
@@ -400,7 +376,6 @@
     "item:tetra:forged_workbench",
     "item:tetra:core_extractor",
     "item:tetra:forged_pillar",
-    "item:tetra:metal_scrap",
     "item:ribbits:swamp_lantern",
     {
       "type": "item",
@@ -423,7 +398,6 @@
     "item:create:rotation_speed_controller",
     "item:natures_spirit:wisteria_mosaic_slab",
     "item:minecraft:crafting_table",
-    "item:tetra:holo{\"holo/core\":\"holo/core\",\"holo/core_material\":\"core/dim\",\"holo/frame\":\"holo/frame\",\"holo/frame_material\":\"frame/ancient\",\"holo/repo\":\"holo/repo\",\"holo/repo_material\":\"repo/default\",\"holo/scanner\":\"holo/scanner\",\"holo/scanner_material\":\"scanner/default\",id:\"9503de92-046c-4d61-8afe-8c0d71c6afae\"}",
     "item:minecraft:shield{Damage:0}",
     "item:minecraft:zombie_head",
     "item:farmersdelight:organic_compost",

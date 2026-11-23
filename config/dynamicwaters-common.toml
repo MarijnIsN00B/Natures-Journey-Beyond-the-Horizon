@@ -32,6 +32,12 @@
 	#Use the full biome resource location, e.g. minecraft:warm_ocean or mymod:dead_sea.
 	#Supports wildcard suffixes when the entry ends with '*', e.g. mymod:*
 	biomeBlacklist = []
+	#The height of underground tunnels carved by normal meandering rivers. Increase for larger caves. (Default: 14)
+	#Range: 5 ~ 50
+	normalRiverTunnelHeight = 16
+	#The height of underground tunnels carved by mountain rivers. Increase for larger caves. (Default: 9)
+	#Range: 5 ~ 50
+	mountainRiverTunnelHeight = 9
 
 [Sounds]
 	#Enable the ambient flowing sound for rivers.
@@ -40,4 +46,6 @@
 [General]
 	#Show the welcome message when joining the world.
 	showWelcomeMessage = true
+	#Automatically disable underground rivers from the Tectonic mod to improve performance and compatibility with Dynamic Waters.
+	disableTectonicUndergroundRivers = true
 
